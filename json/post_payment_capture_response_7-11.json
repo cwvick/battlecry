@@ -1,0 +1,12 @@
+{
+  "requestHeaders": null,
+  "transactionId": "JPJJHNWB4H5VL",
+  "sellingEntity": null,
+  "expirationDate": "2015-02-10",
+  "tax": "7.0",
+  "amount": "143.0",
+  "amountTotal": "150.0",
+  "authorizationCode": "001775047615",
+  "redirectURL": "<form method=\"POST\" action=\"http://202.168.204.204/pincode_test/PaymentBig5.ashx\" id=\"form1\" name=\"form1\" >\n  <input type=\"hidden\" name=\"eshopid\" value=\"894\">\n  <input type=\"hidden\" name=\"account\" value=\"00150\">\n  <input type=\"hidden\" name=\"deadlinedate\" value=\"20150209\">\n  <input type=\"hidden\" name=\"deadlinetime\" value=\"2359\">\n  <input type=\"hidden\" name=\"eshopsonid\" value=\"601\">\n  <input type=\"hidden\" name=\"orderno\" value=\"2843828302\">\n  <input type=\"hidden\" name=\"paymentno\" value=\"00177504\">\n  <input type=\"hidden\" name=\"validationno\" value=\"7615\">\n  <input type=\"hidden\" name=\"tempvar\" value=\"\">\n  <input type=\"hidden\" name=\"url\" value=\"http://www.digitalriver.com/v2.0-bin/rcs/cpg/pure_request.pl\">\n  <input type=\"hidden\" name=\"online_url\" value=\"http://www.digitalriver.com/\">\n  <input type=\"hidden\" name=\"payment_kind\" value=\"\">\n  <input type=\"hidden\" name=\"trade_describe\" value=\"\">\n  <input type=\"hidden\" name=\"payment_cpname\" value=\"\">\n  <input type=\"hidden\" name=\"cp_remark01\" value=\"\">\n  <input type=\"hidden\" name=\"cp_remark02\" value=\"\">\n  <input type=\"hidden\" name=\"cp_remark03\" value=\"\">\n  <input type=\"hidden\" name=\"show_type\" value=\"11\">\n  <input type=\"hidden\" name=\"trade_no\" value=\"3\">\n  <input type=\"hidden\" name=\"service_type\" value=\"2\">\n  <input type=\"image\" src=\"BUTTON_IMAGE_SOURCE\" />\n</form>",
+  "thankYouPageType": "INSTRUCTIONS_FOR_PURCHASE"
+}

@@ -1,0 +1,19 @@
+{
+  "amount": "99.99",
+  "amountTotal": "106.24",
+  "sellingEntity": {
+    "entityName": "Digital River Inc. is authorized reseller and merchant of the products and services offered within this store.",
+    "footer": "Digital River Inc. is authorized reseller and merchant of the products and services offered within this store.",
+    "text": " Digital River Inc. "
+  },
+  "tax": "6.25",
+  "redirectURL": null,
+  "expirationDate": null,
+  "authorizationCode": null,
+  "thankYouPageType": "SUCCESS_PURCHASE",
+  "requestHeaders": {
+    "dnsPixelUrl": "XRIC8299---0---fatfoogoo---0---208-79-254-164.cfspx.digitalriver.com/images/cleardot.gif"
+  },
+  "transactionId": "XRIC8299",
+  "transaction": null
+}

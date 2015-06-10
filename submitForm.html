@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <script type="text/javascript" src="js/jquery-1.7.2.min.js" ></script>
+  <script type="text/javascript">
+    window.onload = function() {
+      var result = {};
+
+      if (window.location.search)
+      {
+        // split up the query string and store in an associative array
+        var params = window.location.search.slice(1).split("&");
+        for (var i = 0; i < params.length; i++)
+        {
+          var tmp = params[i].split("=");
+          result[tmp[0]] = decodeURIComponent(tmp[1]);
+        }
+      }
+      
+      // add form to document and submit
+      $(result.submit_form).appendTo(document.body);
+
+      if ( window.history.pushState ) {
+        window.history.pushState('', '', location.protocol + '//' + location.host + location.pathname);
+      }
+
+      $('form').submit();
+    };
+  </script>
+</head>
+<body>
+<p>${drog_submit_redirect_form_manually_message}</p>
+</body>
+</html>

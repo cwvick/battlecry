@@ -1,0 +1,211 @@
+{
+  "address": [{
+    "type": "billing",
+    "active": true,
+    "accountId": "10372519",
+    "stateCode": null,
+    "city": "Berlin",
+    "street1": "Berlin",
+    "street2": null,
+    "zipCode": "12563",
+    "countryCode": "DEU",
+    "validFrom": 1420195006281,
+    "defaultShipping": false,
+    "lastName": "Kumar",
+    "email": "nihirdas@gmail.com",
+    "firstName": "Nihir",
+    "company": null,
+    "defaultBilling": true,
+    "addressDetailId": "1263066",
+    "validationStatus": "VALIDATION_TURNED_OFF",
+    "phone": null,
+    "stateText": null,
+    "addressStatus": "none",
+    "countryIsoCode": "DE",
+    "stateCodeSimple": null
+  }],
+  "recurringBuyer": true,
+  "returningUserShouldEnterCVV": false,
+  "warningCurrencies": null,
+  "termsConditionsResponse": null,
+  "storeMaintenance": false,
+  "banks": [{
+    "bankId": "10",
+    "bankName": "Bank Austria"
+  }, {
+    "bankId": "11",
+    "bankName": "Erste Bank und Sparkassen"
+  }, {
+    "bankId": "12",
+    "bankName": "Bankhaus Carl Spängler & Co. AG"
+  }, {
+    "bankId": "13",
+    "bankName": "Volksbank Gruppe"
+  }, {
+    "bankId": "14",
+    "bankName": "Hypo Tirol Bank AG"
+  }, {
+    "bankId": "15",
+    "bankName": "HYPO Oberösterreich,Salzburg,Steiermark"
+  }, {
+    "bankId": "16",
+    "bankName": "BAWAG P.S.K. AG"
+  }, {
+    "bankId": "23",
+    "bankName": "Ärztebank"
+  }, {
+    "bankId": "24",
+    "bankName": "HYPO NOE Landesbank AG"
+  }, {
+    "bankId": "25",
+    "bankName": "Hypo Landesbank Vorarlberg"
+  }, {
+    "bankId": "26",
+    "bankName": "Hypo Alpe-Adria-Bank AG"
+  }, {
+    "bankId": "27",
+    "bankName": "Investkredit Bank AG"
+  }, {
+    "bankId": "8",
+    "bankName": "Raiffeisen Bankengruppe Österreich"
+  }],
+  "userLocalizationData": {
+    "currencyIdentifier": "EUR",
+    "countryIdentifier": "AUT",
+    "countryOrigin": "external",
+    "alpha2CountryIdentifier": "AT",
+    "language": "en",
+    "referenceId": "nikumar",
+    "externalIdentityId": null,
+    "externalAccountId": "nikumar"
+  },
+  "regions": [],
+  "identities": [],
+  "paymentTypes": [{
+    "referencedBillingInfoExternalId": null,
+    "referenceEntityId": null,
+    "referenceUrl": null,
+    "scope": null,
+    "paymentType": "cpgClickAndBuy",
+    "defaultPayment": false,
+    "referencedTxId": null,
+    "lastName": null,
+    "email": null,
+    "firstName": null,
+    "lastChange": null,
+    "paymentGroupType": "iFrame",
+    "referenceId": null,
+    "externalIdentityId": null,
+    "externalAccountId": null
+  }, {
+    "name": null,
+    "type": null,
+    "scope": null,
+    "expiryNotificationDate": null,
+    "active": null,
+    "accountId": null,
+    "cvcCode": null,
+    "creditCardExternalId": null,
+    "displayValue": null,
+    "paymentType": "cpgCreditCard",
+    "defaultPayment": false,
+    "paymentInfoExternalId": null,
+    "paymentGroupType": "iFrame",
+    "lastFourDigits": null,
+    "expiresMonth": 0,
+    "expiresYear": 2000
+  }, {
+    "referencedBillingInfoExternalId": null,
+    "referenceEntityId": null,
+    "referenceUrl": null,
+    "scope": null,
+    "paymentType": "cpgIBP",
+    "defaultPayment": false,
+    "referencedTxId": null,
+    "lastName": null,
+    "email": null,
+    "firstName": null,
+    "lastChange": null,
+    "paymentGroupType": "iFrame",
+    "referenceId": null,
+    "externalIdentityId": null,
+    "externalAccountId": null
+  }, {
+    "referencedBillingInfoExternalId": null,
+    "referenceEntityId": null,
+    "referenceUrl": null,
+    "scope": null,
+    "paymentType": "cpgPayPalPreApproved",
+    "defaultPayment": false,
+    "referencedTxId": null,
+    "lastName": null,
+    "email": null,
+    "firstName": null,
+    "lastChange": null,
+    "paymentGroupType": "iFrame",
+    "referenceId": null,
+    "externalIdentityId": null,
+    "externalAccountId": null
+  }, {
+    "scope": "defaultPayment",
+    "externalIdentityId": null,
+    "displayValue": "cpgPaySafeCard",
+    "paymentType": "cpgPaySafeCard",
+    "paymentInfoExternalId": null,
+    "paymentGroupType": "iFrame",
+    "defaultPayment": true
+  }, {
+    "referencedBillingInfoExternalId": null,
+    "referenceEntityId": null,
+    "referenceUrl": null,
+    "scope": null,
+    "paymentType": "cpgSEPADirectDebit",
+    "defaultPayment": false,
+    "referencedTxId": null,
+    "lastName": null,
+    "email": null,
+    "firstName": null,
+    "lastChange": null,
+    "paymentGroupType": "iFrame",
+    "referenceId": null,
+    "externalIdentityId": null,
+    "externalAccountId": null
+  }, {
+    "referencedBillingInfoExternalId": null,
+    "referenceEntityId": null,
+    "referenceUrl": null,
+    "scope": null,
+    "paymentType": "cpgWebMoney",
+    "defaultPayment": false,
+    "referencedTxId": null,
+    "lastName": null,
+    "email": null,
+    "firstName": null,
+    "lastChange": null,
+    "paymentGroupType": "iFrame",
+    "referenceId": null,
+    "externalIdentityId": null,
+    "externalAccountId": null
+  }, {
+    "referencedBillingInfoExternalId": null,
+    "referenceEntityId": null,
+    "referenceUrl": null,
+    "scope": null,
+    "paymentType": "cpgPayPal",
+    "defaultPayment": false,
+    "referencedTxId": null,
+    "lastName": null,
+    "email": null,
+    "firstName": null,
+    "lastChange": null,
+    "paymentGroupType": "iFrame",
+    "referenceId": null,
+    "externalIdentityId": null,
+    "externalAccountId": null
+  }],
+  "sellingEntity": {
+    "text": "Digital River International Ireland ",
+    "footer": "Digital River International Ireland is authorized reseller and merchant of the products and services offered within this store.",
+    "entityName": "Digital River International Ireland is authorized reseller and merchant of the products and services offered within this store."
+  }
+}

@@ -1,0 +1,13 @@
+﻿<script type="text/javascript">
+  if(window.parent && window.parent.document) {
+    if(window.opener) {
+      //var queryString = window.top.location.search.substring(1);
+      window.opener.successPaypalWindow(); 
+      window.close();
+    } else if (window.parent) {
+      window.parent.successPaypalWindow();
+    }
+  } else {
+    document.write('<h1>parent document not found</h1>');
+  } 
+</script>

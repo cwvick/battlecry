@@ -1,0 +1,8 @@
+{
+  "transactionId": "JPJJ80P0DCB29",
+  "amount": "4.35",
+  "amountTotal": "5.00",
+  "tax": "0.65",
+  "redirectURL": "<form name='IBPBankRedirect' action='http://ibptest.netgiro.com:8086/ibp/ideal_initiate' method='GET'><input type='hidden' name='trxid' value='0030139506278799'/> <input type='hidden' name='randomizedstring' value='3939393921'/> <input type='image' src='BUTTON_IMAGE_SOURCE'/></form>",
+  "thankYouPageType": "SUCCESS_PURCHASE"
+}

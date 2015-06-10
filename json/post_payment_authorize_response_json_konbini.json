@@ -1,0 +1,10 @@
+{ 
+   "amount": "1000.0", 
+   "amountTotal": "1000.0", 
+   "transactionId": "78LECC66", 
+   "tax": "0.0", 
+   "redirectURL": null, 
+   "authorizationCode": null, 
+   "thankYouPageType": "SUCCESS_PURCHASE", 
+   "requestHeaders": {"dnsPixelUrl": "78LECC66---0---fatfoogoo---0---127-0-0-1.cfspx.digitalriver.com/images/cleardot.gif"} 
+} 

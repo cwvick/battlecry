@@ -1,0 +1,210 @@
+{
+  "address": [{
+    "type": "billing",
+    "company": null,
+    "stateCode": null,
+    "addressStatus": "none",
+    "defaultBilling": true,
+    "defaultShipping": false,
+    "stateText": null,
+    "validationStatus": "VALIDATION_TURNED_OFF",
+    "phone": null,
+    "countryIsoCode": "AT",
+    "street1": "Briggstr 23",
+    "street2": null,
+    "addressDetailId": "1265484",
+    "zipCode": "1222",
+    "city": "Vienna",
+    "countryCode": "AUT",
+    "stateCodeSimple": null,
+    "validFrom": 1422365445698,
+    "email": "tnokafor@digitalriver.com",
+    "firstName": "Kay",
+    "lastName": "Briggs",
+    "active": true,
+    "accountId": "11321579"
+  }],
+  "warningCurrencies": null,
+  "banks": [{
+    "bankName": "Bank Austria",
+    "bankId": "10"
+  }, {
+    "bankName": "Erste Bank und Sparkassen",
+    "bankId": "11"
+  }, {
+    "bankName": "Bankhaus Carl Spängler & Co. AG",
+    "bankId": "12"
+  }, {
+    "bankName": "Volksbank Gruppe",
+    "bankId": "13"
+  }, {
+    "bankName": "Hypo Tirol Bank AG",
+    "bankId": "14"
+  }, {
+    "bankName": "HYPO Oberösterreich,Salzburg,Steiermark",
+    "bankId": "15"
+  }, {
+    "bankName": "BAWAG P.S.K. AG",
+    "bankId": "16"
+  }, {
+    "bankName": "Ärztebank",
+    "bankId": "23"
+  }, {
+    "bankName": "HYPO NOE Landesbank AG",
+    "bankId": "24"
+  }, {
+    "bankName": "Hypo Landesbank Vorarlberg",
+    "bankId": "25"
+  }, {
+    "bankName": "Hypo Alpe-Adria-Bank AG",
+    "bankId": "26"
+  }, {
+    "bankName": "Investkredit Bank AG",
+    "bankId": "27"
+  }, {
+    "bankName": "Raiffeisen Bankengruppe Österreich",
+    "bankId": "8"
+  }],
+  "sellingEntity": {
+    "footer": "Digital River International Ireland is authorized reseller and merchant of the products and services offered within this store.",
+    "entityName": "Digital River International Ireland is authorized reseller and merchant of the products and services offered within this store.",
+    "text": "Digital River International Ireland "
+  },
+  "termsConditionsResponse": null,
+  "regions": [],
+  "identities": [],
+  "paymentTypes": [{
+    "referencedBillingInfoExternalId": null,
+    "referenceEntityId": null,
+    "referenceUrl": null,
+    "scope": null,
+    "paymentGroupType": "iFrame",
+    "lastChange": null,
+    "referencedTxId": null,
+    "paymentType": "cpgClickAndBuy",
+    "email": null,
+    "firstName": null,
+    "lastName": null,
+    "defaultPayment": false,
+    "externalAccountId": null,
+    "externalIdentityId": null,
+    "referenceId": null
+  }, {
+    "externalIdentityId": null,
+    "name": "Kay Briggs",
+    "type": "VISA",
+    "expiresMonthForUI": "10",
+    "expiresYearForUI": "2017",
+    "ccexpireYYMM": "1710",
+    "cvcCode": null,
+    "expiresYearForApi": "17",
+    "creditCardExternalId": "503862",
+    "ccexpireMMYY": "1017",
+    "expiresMonth": 10,
+    "expiresYear": 2017,
+    "cvcCodeAsString": "",
+    "scope": "defaultPayment",
+    "paymentGroupType": "iFrame",
+    "displayValue": "8523",
+    "paymentInfoExternalId": "503862",
+    "lastFourDigits": "8523",
+    "paymentType": "cpgCreditCard",
+    "defaultPayment": true,
+    "expiryNotificationDate": null,
+    "active": true,
+    "accountId": "11321579"
+  }, {
+    "referencedBillingInfoExternalId": null,
+    "referenceEntityId": null,
+    "referenceUrl": null,
+    "scope": null,
+    "paymentGroupType": "iFrame",
+    "lastChange": null,
+    "referencedTxId": null,
+    "paymentType": "cpgIBP",
+    "email": null,
+    "firstName": null,
+    "lastName": null,
+    "defaultPayment": false,
+    "externalAccountId": null,
+    "externalIdentityId": null,
+    "referenceId": null
+  }, {
+    "referencedBillingInfoExternalId": null,
+    "referenceEntityId": null,
+    "referenceUrl": null,
+    "scope": null,
+    "paymentGroupType": "iFrame",
+    "lastChange": null,
+    "referencedTxId": null,
+    "paymentType": "cpgPaySafeCard",
+    "email": null,
+    "firstName": null,
+    "lastName": null,
+    "defaultPayment": false,
+    "externalAccountId": null,
+    "externalIdentityId": null,
+    "referenceId": null
+  }, {
+    "referencedBillingInfoExternalId": null,
+    "referenceEntityId": null,
+    "referenceUrl": null,
+    "scope": null,
+    "paymentGroupType": "iFrame",
+    "lastChange": null,
+    "referencedTxId": null,
+    "paymentType": "cpgSEPADirectDebit",
+    "email": null,
+    "firstName": null,
+    "lastName": null,
+    "defaultPayment": false,
+    "externalAccountId": null,
+    "externalIdentityId": null,
+    "referenceId": null
+  }, {
+    "referencedBillingInfoExternalId": null,
+    "referenceEntityId": null,
+    "referenceUrl": null,
+    "scope": null,
+    "paymentGroupType": "iFrame",
+    "lastChange": null,
+    "referencedTxId": null,
+    "paymentType": "cpgWebMoney",
+    "email": null,
+    "firstName": null,
+    "lastName": null,
+    "defaultPayment": false,
+    "externalAccountId": null,
+    "externalIdentityId": null,
+    "referenceId": null
+  }, {
+    "referencedBillingInfoExternalId": null,
+    "referenceEntityId": null,
+    "referenceUrl": null,
+    "scope": null,
+    "paymentGroupType": "iFrame",
+    "lastChange": null,
+    "referencedTxId": null,
+    "paymentType": "cpgPayPal",
+    "email": null,
+    "firstName": null,
+    "lastName": null,
+    "defaultPayment": false,
+    "externalAccountId": null,
+    "externalIdentityId": null,
+    "referenceId": null
+  }],
+  "recurringBuyer": true,
+  "returningUserShouldEnterCVV": false,
+  "userLocalizationData": {
+    "currencyIdentifier": "EUR",
+    "countryIdentifier": "AUT",
+    "countryOrigin": "none",
+    "alpha2CountryIdentifier": "AT",
+    "language": "en",
+    "externalAccountId": "Kay",
+    "externalIdentityId": null,
+    "referenceId": "Kay"
+  },
+  "storeMaintenance": false
+}

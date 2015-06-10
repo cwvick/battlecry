@@ -1,0 +1,13 @@
+{
+  "requestHeaders": null,
+  "transactionId": "XRIC8299",
+  "transaction": null,
+  "authorizationCode": null,
+  "sellingEntity": null,
+  "amount": "99.99",
+  "amountTotal": "106.24",
+  "tax": "6.25",
+  "expirationDate": null,
+  "redirectURL": "https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-4S293642KW029193E&useraction=commit",
+  "thankYouPageType": "SUCCESS_PURCHASE"
+}

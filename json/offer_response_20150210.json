@@ -1,0 +1,27 @@
+[{
+  "id": "OFFER-GTAV-SHARKCARD-WHALE",
+  "prices": [{
+    "id": "OFFER-GTAV-SHARKCARD-WHALEEURf2f49e52-8e9c-4d48-a427-01453c143984",
+    "currency": "EUR",
+    "price": 45.29,
+    "priceOriginal": 45.29
+  }],
+  "name": "Whale Shark Card",
+  "shortDescription": "Whale Shark Card",
+  "longDescription": "Whale Shark Card",
+  "images": [],
+  "tags": [],
+  "startDate": 1421450499828,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": null,
+  "items": [{
+    "id": "OFFER-GTAV-SHARKCARD-WHALE",
+    "name": "Whale Shark Card",
+    "shortDescription": "Whale Shark Card",
+    "longDescription": "Whale Shark Card",
+    "images": [],
+    "quantity": null
+  }],
+  "paymentForms": []
+}]

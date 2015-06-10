@@ -1,0 +1,382 @@
+[{
+  "id": "BattleCry_Offer_01",
+  "prices": [{
+    "id": "BattleCry_Offer_01USD408a55ce-970b-4abe-bcf7-6a83010b67bc",
+    "price": {
+      "symbol": "EUR",
+      "isoCode": "EUR",
+      "type": "real",
+      "amount": 4999,
+      "decimalAmount": 49.99
+    },
+    "priceOriginal": {
+      "symbol": "EUR",
+      "isoCode": "EUR",
+      "type": "real",
+      "amount": 4999,
+      "decimalAmount": 59.99
+    },
+    "paymentForms": ["cpgCreditCard"]
+  }],
+  "countdown": {
+    "startDate": 1397041821857,
+    "endDate": 1533326453079
+  },
+  "images": [{
+    "id": null,
+    "label": "1",
+    "uri": "//localhost/SVN/battlecry/v1/template/images/img_offer01.png",
+    "locale": null,
+    "descriptions": null,
+    "attachedFiles": null,
+    "archetype": "image"
+  }],
+  "videos": [],
+  "tags": [],
+  "startDate": 1432137019899,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "BattleCry_01_Item",
+    "descriptions": [{
+      "short": "10",
+      "long": "<li>PC/Mac only.</li><li>Use Gold to purchase virtual goods in-game.</li><li>Gold cannot be traded.</li><li>This is a license for digital content.</li>",
+      "name": "",
+      "locale": "en"
+    }],
+    "images": [{
+      "id": null,
+      "label": "1",
+      "uri": "//static.comicvine.com/uploads/scale_large/5/55858/2817404-battle_cry__11___page_1.jpg",
+      "locale": null,
+      "descriptions": null,
+      "attachedFiles": null,
+      "archetype": "image"
+    }],
+    "videos": [],
+    "quantity": null,
+    "monetaryValue": null,
+    "bundledItems": null
+  }],
+  "descriptions": [{
+    "short": "100",
+    "long": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique pharetra libero, non tempus massa porta vel. Nunc non nunc placerat, tincidunt nisi ut, cursus sem. Quisque ut libero mauris. Curabitur dictum, dolor ut finibus dapibus, arcu arcu hendrerit eros, et pellentesque augue ex in dui. Mauris tempor consectetur ante vac hendrerit. Vestibulum in lacus vehicula, facilisis mi ut, congue risus. Nam et lacinia velit. Donec consectetur, nibh id rhoncus cursus, purus lectus faucibus ex, eu ultricies",
+    "name": "Package name 01",
+    "locale": "en"
+  }]
+},{
+  "id": "BattleCry_Offer_02",
+  "prices": [{
+    "id": "BattleCry_Offer_02USD408a55ce-970b-4abe-bcf7-6a83010b67bc",
+    "price": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 4999,
+      "decimalAmount": 59.99
+    },
+    "priceOriginal": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 4999,
+      "decimalAmount": 49.99
+    },
+    "paymentForms": []
+  }],
+  "countdown": {
+    "startDate": 1397041821857,
+    "endDate": 1433401459310
+  },
+  "images": [{
+    "id": null,
+    "label": "1",
+    "uri": "//localhost/SVN/battlecry/v1/template/images/img_offer02.png",
+    "locale": null,
+    "descriptions": null,
+    "attachedFiles": null,
+    "archetype": "image"
+  }],
+  "videos": [],
+  "tags": [],
+  "startDate": 1432137019899,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "BattleCry_02_Item",
+    "descriptions": [{
+      "short": "Guild Wars 2: Heart of Thorns (Standard)",
+      "long": "<li>PC/Mac only.</li><li>Use Gold to purchase virtual goods in-game.</li><li>Gold cannot be traded.</li><li>This is a license for digital content.</li>",
+      "name": "Guild Wars 2: Heart of Thorns (Standard)",
+      "locale": "en"
+    }, {
+      "short": "Guild Wars 2: Heart of Thorns (Standard Edition)",
+      "long": "Guild Wars 2: Heart of Thorns (Standard Edition)",
+      "name": "Guild Wars 2: Heart of Thorns (Standard Edition)",
+      "locale": "de"
+    }, {
+      "short": "Guild Wars 2: Heart of Thorns (Edición estándar)",
+      "long": "Guild Wars 2: Heart of Thorns (Edición estándar)",
+      "name": "Guild Wars 2: Heart of Thorns (Edición estándar)",
+      "locale": "es"
+    }, {
+      "short": "Guild Wars 2: Heart of Thorns (Édition Standard)",
+      "long": "Guild Wars 2: Heart of Thorns (Édition Standard)",
+      "name": "Guild Wars 2: Heart of Thorns (Édition Standard)",
+      "locale": "fr"
+    }],
+    "images": [],
+    "videos": [],
+    "quantity": null,
+    "monetaryValue": null,
+    "bundledItems": null
+  }],
+  "descriptions": [{
+    "short": "200",
+    "long": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique pharetra libero, non tempus massa porta vel. Nunc non nunc placerat, tincidunt nisi ut, cursus sem. Quisque ut libero mauris. Curabitur dictum, dolor ut finibus dapibus, arcu arcu hendrerit eros, et pellentesque augue ex in dui. Mauris tempor consectetur ante vac hendrerit. Vestibulum in lacus vehicula, facilisis mi ut, congue risus. Nam et lacinia velit. Donec consectetur, nibh id rhoncus cursus, purus lectus faucibus ex, eu ultricies",
+    "name": "Package name 02",
+    "locale": "en"
+  }]
+},{
+  "id": "BattleCry_Offer_03",
+  "prices": [{
+    "id": "BattleCry_Offer_03USD408a55ce-970b-4abe-bcf7-6a83010b67bc",
+    "price": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 4999,
+      "decimalAmount": 69.99
+    },
+    "priceOriginal": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 4999,
+      "decimalAmount": 100
+    },
+    "paymentForms": []
+  }],
+  "images": [{
+    "id": null,
+    "label": "1",
+    "uri": "//localhost/SVN/battlecry/v1/template/images/img_offer03.png",
+    "locale": null,
+    "descriptions": null,
+    "attachedFiles": null,
+    "archetype": "image"
+  }],
+  "videos": [],
+  "tags": [],
+  "startDate": 1432137019899,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "BattleCry_03_Item",
+    "descriptions": [{
+      "short": "Guild Wars 2: Heart of Thorns (Standard)",
+      "long": "<li>PC/Mac only.</li><li>Use Gold to purchase virtual goods in-game.</li><li>Gold cannot be traded.</li><li>This is a license for digital content.</li>",
+      "name": "Guild Wars 2: Heart of Thorns (Standard)",
+      "locale": "en"
+    }, {
+      "short": "Guild Wars 2: Heart of Thorns (Standard Edition)",
+      "long": "Guild Wars 2: Heart of Thorns (Standard Edition)",
+      "name": "Guild Wars 2: Heart of Thorns (Standard Edition)",
+      "locale": "de"
+    }, {
+      "short": "Guild Wars 2: Heart of Thorns (Edición estándar)",
+      "long": "Guild Wars 2: Heart of Thorns (Edición estándar)",
+      "name": "Guild Wars 2: Heart of Thorns (Edición estándar)",
+      "locale": "es"
+    }, {
+      "short": "Guild Wars 2: Heart of Thorns (Édition Standard)",
+      "long": "Guild Wars 2: Heart of Thorns (Édition Standard)",
+      "name": "Guild Wars 2: Heart of Thorns (Édition Standard)",
+      "locale": "fr"
+    }],
+    "images": [],
+    "videos": [],
+    "quantity": null,
+    "monetaryValue": null,
+    "bundledItems": null
+  }],
+  "descriptions": [{
+    "short": "300",
+    "long": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique pharetra libero, non tempus massa porta vel. Nunc non nunc placerat, tincidunt nisi ut, cursus sem. Quisque ut libero mauris. Curabitur dictum, dolor ut finibus dapibus, arcu arcu hendrerit eros, et pellentesque augue ex in dui. Mauris tempor consectetur ante vac hendrerit. Vestibulum in lacus vehicula, facilisis mi ut, congue risus. Nam et lacinia velit. Donec consectetur, nibh id rhoncus cursus, purus lectus faucibus ex, eu ultricies",
+    "name": "Package name 03",
+    "locale": "en"
+  }]
+},{
+  "id": "BattleCry_Offer_04",
+  "prices": [{
+    "id": "BattleCry_Offer_04USD408a55ce-970b-4abe-bcf7-6a83010b67bc",
+    "price": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 4999,
+      "decimalAmount": 79.99
+    },
+    "priceOriginal": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 4999,
+      "decimalAmount": 79.99
+    },
+    "paymentForms": []
+  }],
+  "images": [{
+    "id": null,
+    "label": "1",
+    "uri": "//localhost/SVN/battlecry/v1/template/images/img_offer04.png",
+    "locale": null,
+    "descriptions": null,
+    "attachedFiles": null,
+    "archetype": "image"
+  }],
+  "videos": [],
+  "tags": [],
+  "startDate": 1432137019899,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "BattleCry_04_Item",
+    "descriptions": [{
+      "short": "Guild Wars 2: Heart of Thorns (Standard)",
+      "long": "<li>PC/Mac only.</li><li>Use Gold to purchase virtual goods in-game.</li><li>Gold cannot be traded.</li><li>This is a license for digital content.</li>",
+      "name": "Guild Wars 2: Heart of Thorns (Standard)",
+      "locale": "en"
+    }, {
+      "short": "Guild Wars 2: Heart of Thorns (Standard Edition)",
+      "long": "Guild Wars 2: Heart of Thorns (Standard Edition)",
+      "name": "Guild Wars 2: Heart of Thorns (Standard Edition)",
+      "locale": "de"
+    }, {
+      "short": "Guild Wars 2: Heart of Thorns (Edición estándar)",
+      "long": "Guild Wars 2: Heart of Thorns (Edición estándar)",
+      "name": "Guild Wars 2: Heart of Thorns (Edición estándar)",
+      "locale": "es"
+    }, {
+      "short": "Guild Wars 2: Heart of Thorns (Édition Standard)",
+      "long": "Guild Wars 2: Heart of Thorns (Édition Standard)",
+      "name": "Guild Wars 2: Heart of Thorns (Édition Standard)",
+      "locale": "fr"
+    }],
+    "images": [],
+    "videos": [],
+    "quantity": null,
+    "monetaryValue": null,
+    "bundledItems": null
+  }],
+  "descriptions": [{
+    "short": "400",
+    "long": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique pharetra libero, non tempus massa porta vel. Nunc non nunc placerat, tincidunt nisi ut, cursus sem. Quisque ut libero mauris. Curabitur dictum, dolor ut finibus dapibus, arcu arcu hendrerit eros, et pellentesque augue ex in dui. Mauris tempor consectetur ante vac hendrerit. Vestibulum in lacus vehicula, facilisis mi ut, congue risus. Nam et lacinia velit. Donec consectetur, nibh id rhoncus cursus, purus lectus faucibus ex, eu ultricies",
+    "name": "Package name 04",
+    "locale": "en"
+  }]
+},{
+  "id": "BattleCry_Offer_05",
+  "prices": [{
+    "id": "BattleCry_Offer_05USD408a55ce-970b-4abe-bcf7-6a83010b67bc",
+    "price": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 4999,
+      "decimalAmount": 89.99
+    },
+    "priceOriginal": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 4999,
+      "decimalAmount": 89.99
+    },
+    "paymentForms": []
+  }],
+  "images": [{
+    "id": null,
+    "label": "1",
+    "uri": "//localhost/SVN/battlecry/v1/template/images/img_offer05.png",
+    "locale": null,
+    "descriptions": null,
+    "attachedFiles": null,
+    "archetype": "image"
+  }],
+  "videos": [],
+  "tags": [],
+  "startDate": 1432137019899,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "BattleCry_05_Item",
+    "descriptions": [{
+      "short": "Guild Wars 2: Heart of Thorns (Standard)",
+      "long": "<li>PC/Mac only.</li><li>Use Gold to purchase virtual goods in-game.</li><li>Gold cannot be traded.</li><li>This is a license for digital content.</li>",
+      "name": "Guild Wars 2: Heart of Thorns (Standard)",
+      "locale": "en"
+    }, {
+      "short": "Guild Wars 2: Heart of Thorns (Standard Edition)",
+      "long": "Guild Wars 2: Heart of Thorns (Standard Edition)",
+      "name": "Guild Wars 2: Heart of Thorns (Standard Edition)",
+      "locale": "de"
+    }, {
+      "short": "Guild Wars 2: Heart of Thorns (Edición estándar)",
+      "long": "Guild Wars 2: Heart of Thorns (Edición estándar)",
+      "name": "Guild Wars 2: Heart of Thorns (Edición estándar)",
+      "locale": "es"
+    }, {
+      "short": "Guild Wars 2: Heart of Thorns (Édition Standard)",
+      "long": "Guild Wars 2: Heart of Thorns (Édition Standard)",
+      "name": "Guild Wars 2: Heart of Thorns (Édition Standard)",
+      "locale": "fr"
+    }],
+    "images": [],
+    "videos": [],
+    "quantity": null,
+    "monetaryValue": null,
+    "bundledItems": null
+  }],
+  "descriptions": [{
+    "short": "500",
+    "long": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique pharetra libero, non tempus massa porta vel. Nunc non nunc placerat, tincidunt nisi ut, cursus sem. Quisque ut libero mauris. Curabitur dictum, dolor ut finibus dapibus, arcu arcu hendrerit eros, et pellentesque augue ex in dui. Mauris tempor consectetur ante vac hendrerit. Vestibulum in lacus vehicula, facilisis mi ut, congue risus. Nam et lacinia velit. Donec consectetur, nibh id rhoncus cursus, purus lectus faucibus ex, eu ultricies",
+    "name": "Package name 05",
+    "locale": "en"
+  }]
+}]

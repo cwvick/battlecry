@@ -1,0 +1,11 @@
+{
+  "requestHeaders": null,
+  "transactionId": "PIWME39A",
+  "authorizationCode": "2119344090",
+  "amount": "16.67",
+  "amountTotal": "20.0",
+  "redirectURL": "https://cdn.fatfoogoo.com/live.pok/store/client4.com/gw2/v1/en/submitForm.html?submit_form=%3Cform%20name%3D%22IBPBankRedirect%22%20action%3D%22https%3A%2F%2Fgeb.bankaustria.at%2Fga-gif-war%2FepsLoginRedirectServlet%3Fref%3DnVz7K1bL2EBBuBOmGTbgH%2BbRO9fY1nmL%22%20method%3D%22POST%22%3E%0A%3Cinput%20type%3Dhidden%20name%3D%22ref%22%20value%3D%22nVz7K1bL2EBBuBOmGTbgH%2BbRO9fY1nmL%22%20%2F%3E%0A%0A%3Cinput%20type%3D%22image%22%20src%3D%22images%2Fproceed.png%22%20%2F%3E%0A%3C%2Fform%3E",
+  "expirationDate": null,
+  "thankYouPageType": "SUCCESS_PURCHASE",
+  "tax": "3.33"
+}

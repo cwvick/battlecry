@@ -1,0 +1,13 @@
+﻿<script type="text/javascript">
+  if(window.parent && window.parent.document) {
+    //window.parent.cancelPaypalWindow(); 
+    if(window.opener) {
+      window.opener.cancelPaypalWindow(); 
+      window.close();
+    } else if(window.parent) {
+      window.parent.cancelPaypalWindow(); 
+    }
+  } else {
+    document.write('<h1>parent document not found</h1>');
+  } 
+</script>

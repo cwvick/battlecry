@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>BattleCry</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/cssfonts.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script type="text/javascript">
+  	var allowedHostAPIOrigins = 'https://cdn.fatfoogoo.com,https://client4.qa.pok.fatfoogoo.com,https://gemstore-dev.ncplatform.net,https://gemstore-stage.ncplatform.net,https://gemstore-live.ncplatform.net,https://gemstore-dfw-live.ncplatform.net,https://gemstore-fra-live.ncplatform.net'.split(',');
+  	var storeLanguage = 'en';
+  	var _localizations = {
+  		'drog.storeMaintenance.header' : 'Store Maintenance',
+  		'drog.storeMaintenance.displayValue' : 'Store is currently unavailable.',
+  		'drog.error.sessionexpire.alert' : 'Your session has expired. Please access the purchase page again. Thank you!',
+  		'drog.text.back.to.store' : 'Back to store',
+  		'drog.terms.not.accepted' : 'Please agree to the Terms of Sale',
+  		'drog.error.validation.alert' : 'Please check the fields with red text above and confirm that your information is correct.',
+  		'drog.transaction.progress.header' : 'Transaction in progress, please wait and do not close this window.',
+  		'drog.you.have.successfully.cancelled.your.transaction' : 'You have successfully cancelled your transaction.',
+  		'drog.please.try.again.by.using.a.different.payment.method' : 'Please try again by using a different payment method. Thank you.',
+  		'drog.payment.externalinfo.message': 'You are being automatically redirected to {0}.<br/>If a new window does not open - go to <a class="overlay_paypallink launchbrowser" href="{1}">{2}</a>',
+  		'drog.default.error': 'Unfortunately an error has occurred. Please try again later!',
+  		'drog.text.credit.card.ending' : 'ending in',
+  		'drog.text.edit': '(Change)',
+  		'drog.back.to.store.full.url' : 'https://dev.warframe.com/buyplatinum',
+      'drog.back.to.store.purchase.finished.full.url' : 'https://dev.warframe.com/buyplatinum?postPurchase=1',
+      'drog.text.offer.discount.was' : 'was',
+      'drog.text.offer.discount.save' : 'save',
+      'drog.text.offer.countdown.ends.in' : 'offer ends in',
+      'drog.text.offer.bonus' : 'bonus',
+      'drog.link.battlecry.faq.url' : '//battlecrythegame.com/en/faq',
+      'drog.link.battlecry.tos.url' : '//battlecrythegame.com/en/agreement/tos'
+  	};
+  </script>
+</head>
+
+<body>
+	<!-- START ajax loading animation -->
+	<div class="dr_overlayWrapper">
+		<div class="dr_overlayContainer">
+			<div class="dr_overlayLoader"></div>
+			<div class="dr_overlayText">Transaction in progress, please wait and do not close this window.</div>
+		</div>
+	</div>
+	<!-- END ajax loading animation -->
+	<div id="dr_container">
+		<!-- START popup message -->
+		<div class="dr_msgWrapper">
+			<div class="dr_msgText"></div>
+			<div class="btn_closePopup"></div>
+		</div>
+		<!-- END popup message -->
+		<!-- START store maintenance -->
+		<div class="step_wrapper dr_maintenance step-maintenance">
+			<div class="dr_maintenHeader"></div>
+			<div class="dr_maintenText"></div>
+		</div>
+		<!-- END store maintenance -->
+		<!-- START session timeout -->
+		<div class="step_wrapper dr_sessionExpire step-sessionExpire">
+			<div class="dr_expireText"></div>
+		</div>
+		<!-- END session timeout-->
+		<!-- START offer selection page -->
+		<div class="step_wrapper dr_offerSelect step-productSelection">
+			<div class="dr_offerTitle">
+				<div class="dr_subTitle">SUPPORT THE WAR</div>
+				<div class="dr_mainTitle">BUY GOLD!</div>
+				<div class="dr_shortDesc">Short Description Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis leo nec magna accumsan, eu sagittis sapien varius. Suspendisse ullamcorper dignissim pellentesque.</div>
+			</div>
+			<ul class="dr_offerList clearfix">
+				<!-- <li>
+					<div class="dr_offerImg"><img src="images/img_offer01.png"></div>
+					<div class="dr_offerOverlay">
+						<div class="dr_offerName">Package Name</div>
+						<div class="dr_offerGold">000</div>
+						<div class="dr_offerPrice clearfix">
+							<div class="dr_dollarSign">$</div>
+							<div class="dr_priceInt">000</div>
+							<div>
+								<div class="dr_priceFloat">.00</div>
+								<div class="dr_currency">USD</div>
+							</div>
+						</div>
+					</div>
+					<div class="dr_offerSpecialTop">
+						<div class="dr_discount">
+							<div>was <span class="dr_originalPrice">$000.00</span></div>
+							<div class="dr_saveRate">save 00%</div>
+						</div>
+						<div class="dr_countdown">Offer ends in 24h 30m</div>
+					</div>
+					<div class="dr_offerSpecialBottom">
+						BONUS + 00
+					</div>
+				</li> -->
+			</ul>
+		</div>
+		<!-- END offer selection page -->
+		<!-- START Payment & Billing info Page and Order confirmation page -->
+		<div class="step_wrapper dr_paymentSection step-paymentSelection">
+			<form id="payment-section" class="clearfix" autocomplete="off">
+				<!-- START Offer detail Information -->
+				<div class="dr_offerDetail">
+					<div class="clearfix">
+						<div class="dr_offerThumbnail">
+							<div class="dr_itemImg"></div>
+							<!-- <div class="dr_countdown">Offer ends in 24h 30m</div> -->
+						</div>
+						<div class="dr_offerInfo">
+							<div class="logo_battlecry"></div>
+							<div class="dr_packageContent clearfix">
+								<div class="dr_offerGold"></div>
+								<div>Package</div>
+								<!-- <div class="dr_bounsGold">+ BONUS 00</div> -->
+							</div>
+							<div class="dr_offerPrice clearfix">
+								<!-- <div class="dr_dollarSign">$</div>
+								<div class="dr_priceInt">000</div>
+								<div>
+									<div class="dr_priceFloat">.00</div>
+									<div class="dr_currency">USD</div>
+								</div>
+								<div class="dr_discount">
+									<div>was <span class="dr_originalPrice">$000.00</span></div>
+									<div class="dr_saveRate">save 00%</div>
+								</div> -->
+							</div>
+							<div class="dr_itemService">ITEMS & SERVICES</div>
+							<div class="dr_proDetail">
+								<div class="dr_title">Product Details</div>
+								<ul class="dr_detailList">
+									<!-- <li>PC/Mac only.</li>
+									<li>Use Gold to purchase virtual goods in-game.</li>
+									<li>Gold cannot be traded.</li>
+									<li>This is a license for digital content.</li> -->
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="dr_longDesc">
+						<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique pharetra libero, non tempus massa porta vel. Nunc non nunc placerat, tincidunt nisi ut, cursus sem. Quisque ut libero mauris. Curabitur dictum, dolor ut finibus dapibus, arcu arcu hendrerit eros, et pellentesque augue ex in dui. Mauris tempor consectetur ante vac hendrerit. Vestibulum in lacus vehicula, facilisis mi ut, congue risus. Nam et lacinia velit. Donec consectetur, nibh id rhoncus cursus, purus lectus faucibus ex, eu ultricies -->
+					</div>
+				</div>
+				<!-- END Offer detail Information -->
+				<!-- START Payment and Billing info -->
+				<div class="dr_paymentWrapper">
+					<div class="dr_headerTitle">Buy Now</div>
+					<!-- START Payment method selection & payment form -->
+					<div class="dr_paymentMethod">
+						<div class="dr_title">Payment Method</div>
+						<div class="dr_paymentDetail">
+							<div class="dr_paymentType clearfix">
+								<!-- START Payment method -->
+								<div class="dr_inputBox">
+									<div class="dr_label">Please select a payment method</div>
+									<select id="select-paymentType-hidden">
+										<option value="cpgCreditCard" data-name="Credit Card">Credit Card</option>
+										<option value="cpgPayPal" data-name="PayPal">PayPal</option>
+									</select>
+									<select id="select-paymentType"></select>
+								</div>
+								<!-- END Payment method -->
+								<!-- START Credit card form -->
+								<div class="dr_inputBox dr_paymentMethodBox" for="cpgCreditCard">
+									<div class="dr_label">Expiration date</div>
+									<select id="cardExpirationMonth" name="cardExpirationMonth">
+	                  <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option>
+	                </select>
+	                <select id="cardExpirationYear" name="cardExpirationYear"></select>
+								</div>
+								<div class="dr_inputBox dr_paymentMethodBox" for="cpgCreditCard">
+									<div class="dr_label">Card number</div>
+									<div class="clearfix">
+										<div class="dr_floatL">
+											<input type="text" name="cardNumber" id="cardNumber" placeholder="0000-0000-0000-0000"/>
+										</div>
+										<div class="img_cardType"></div>
+									</div>
+								</div>
+								<div class="dr_inputBox dr_paymentMethodBox" for="cpgCreditCard">
+									<div class="dr_label">CVC</div>
+									<input type="password" name="cardSecurityCode" id="cardSecurityCode" value="" placeholder=""/>
+									<span class="btn_cvcInfo">?</span>
+									<div class="cvv_hint"></div>
+								</div>
+								<div class="dr_inputBox dr_paymentMethodBox dr_redirectInfo" for="cpgPayPal">
+									Please note that this payment option will redirect you to the payment provider's page for processing your order!
+								</div>
+								<!-- END Credit card form -->
+							</div>
+						</div>
+						<div class="dr_paymentNote">
+							We accept the following secure payment methods:<br> PayPal, Visa, Mastercard, American Express, Discover<br><br>
+							When you submit your payment information your data is protected by Secure Socket Layer (SSL) technology certified by a digital certificate.
+						</div>
+					</div>
+					<!-- END Payment method selection & payment form -->
+					<!-- START Billing information form -->
+					<div class="dr_billingInfo">
+						<div class="dr_title">Billing Information</div>
+						<div class="clearfix">
+							<div class="dr_floatL">
+								<div class="dr_inputBox required">
+									<div class="dr_label">First name</div>
+									<input type="text" name="firstname" id="firstname" value="" placeholder="" class="inputType1"/>
+								</div>
+								<div class="dr_inputBox required">
+									<div class="dr_label">Last name</div>
+									<input type="text" name="lastname" id="lastname" value="" placeholder="" class="inputType1"/>
+								</div>
+								<div class="dr_inputBox required">
+									<div class="dr_label">Billing address</div>
+									<input type="text" name="address" id="address" value="" placeholder="" class="inputType1"/>
+								</div>
+								<div class="dr_inputBox">
+									<div class="dr_label">Billing address, line 2</div>
+									<input type="text" name="address-extra" id="address-extra" value="" placeholder="" class="inputType1"/>
+								</div>
+							</div>
+							<div class="dr_floatL">
+								<div class="dr_inputBox required">
+									<div class="dr_label">City</div>
+									<input type="text" name="city" id="city" value="" placeholder="" class="inputType2"/>
+								</div>
+								<div class="dr_inputBox clearfix rowspan_2 required">
+									<div class="dr_floatL dr_stateWrapper">
+										<div class="dr_label">State</div>
+										<select id="select-state"></select>
+									</div>
+									<div class="dr_floatR">
+										<div class="dr_label">Zip or postal code</div>
+										<input type="text" name="zipcode" id="zipcode" value="" placeholder="" class="inputType3"/>
+									</div>
+								</div>
+								<div class="dr_inputBox required">
+									<div class="dr_label">Country</div>
+									<select id="select-country"></select>
+								</div>
+								<div class="dr_inputBox required">
+									<div class="dr_label">Phone Number</div>
+									<input type="text" name="phone" id="phone" value="" placeholder="" class="inputType2"/>
+								</div>
+							</div>
+						</div>
+						<div class="dr_inputBox clearfix bc_account">
+							<div class="dr_label dr_floatL">BATTLECRY Account:</div>
+							<div class="dr_floatL input_account" data-account="DudeBro@Gmail.com">DudeBro@Gmail.com</div>
+						</div>
+					</div>
+					<!-- END Billing information form -->
+					<!-- START Save user information -->
+					<div class="clearfix dr_saveInfoWrapper">
+						<div class="cb_saveInfo"></div>
+						<div class="text_saveInfo">Save my payment information</div>
+						<div class="note_saveInfo">(Payments stored and processed by<span class="logo_dr"></span>)</div>
+					</div>
+					<!-- END Save user information -->
+					<div class="dr_buttonBar clearfix">
+						<div class="btn_backToStore"><div>back to store</div></div>
+						<a class="link_faq" href="#" target="_blank">FAQ</a>
+						<div class="btn_next dr_floatR"><div>continue</div></div>
+						<div class="dr_stepNote dr_floatR">You’ll have a chance to review your order before it’s placed</div>
+					</div>
+				</div>
+				<!-- END Payment and Billing info -->
+				<!-- START Order confirmation page-->
+				<div class="dr_paymentConfirm">
+					<ul class="dr_confirmList">
+						<li class="dr_listHeader clearfix">
+							<div class="dr_offerGold">000</div>
+							<div class="dr_floatL">Package</div>
+							<div class="dr_subTotal">$000.00</div>
+						</li>
+						<li class="dr_priceDetail clearfix">
+							<div class="dr_priceLabel">vat:</div>
+							<div class="dr_priceTax dr_priceValue">$000.00</div>
+							<div class="dr_priceLabel">total:</div>
+							<div class="dr_priceTotal dr_priceValue">$000.00</div>
+						</li>
+						<li class="dr_paymentInfo">
+							<div class="clearfix">
+								<div class="dr_infoTitle">Payment Method:</div>
+								<div class="dr_infoContent confirm_paymentType">
+									Visa ending in **00
+									<span class="button_edit">(Change)</span>
+								</div>
+							</div>
+							<div class="clearfix">
+								<div class="dr_infoTitle">Billing address:</div>
+								<div class="dr_infoContent confirm_address">
+									Billy Larson<br>
+									1100 Van Down By The River Dr.<br>
+									Austin, TX<br>
+									78704<br>
+									US
+								</div>
+							</div>
+							<div class="clearfix">
+								<div class="dr_infoTitle">Phone:</div>
+								<div class="dr_infoContent confirm_phone">
+									5124437220
+								</div>
+							</div>
+							<div class="clearfix">
+								<div class="dr_infoTitle">BATTLECRY Account:</div>
+								<div class="dr_infoContent">
+									<div class="input_account" data-account="DudeBro@Gmail.com">DudeBro@Gmail.com</div>
+									<div class="email_note">confirmation email will be sent to this account</div>
+								</div>
+							</div>
+						</li>
+						<li class="dr_purchaseNote">
+							By purchasing Gold, you are receiving a license to use or obtain certain features of Battlecry under the terms and conditions of the game and game service.  Gold has no value outside of Battlecry, is non-transferrable, cannot be redeemed for cash, and is subject to the <a href="#" target="_blank" class="link_tos">ZeniMax Media Terms of Service</a>.
+						</li>
+					</ul>
+					<div class="terms_container">
+						<div class="cb_AcceptTerms">
+							<div class="cb_icon"></div>
+							I accept <a class="dr_termsSales" target="_blank">Digital River’s Terms and Conditions</a>
+						</div>
+						<div class="cb_AcceptPolicy">
+							<div class="cb_icon"></div>
+							I accept <a class="dr_privacyPolicy" target="_blank">Digital River’s Privacy Policy</a>
+						</div>
+					</div>
+				</div>
+				<!-- END Order confirmation page-->
+			</form>
+			<div class="dr_buttonBar clearfix dr_confirmButtons">
+				<div class="btn_backToStore"><div>back to store</div></div>
+				<a class="link_faq" href="#" target="_blank">FAQ</a>
+				<div class="btn_purchase dr_floatR"><div>confirm purchase</div></div>
+			</div>
+		</div>
+		<!-- END Payment & Billing info Page and Order confirmation page -->
+		<!-- START Thank you page-->
+		<div class="step_wrapper dr_complete step-complete">
+			<div class="dr_headerTitle">THANK YOU FOR YOUR PURCHASE</div>
+			<div class="dr_subTitle">
+				Your <span class="dr_offerGold"></span> has been added to your BATTLECRY account and can be spent immediately!<br>
+				Confirmation of your purchase is provided below.<br>
+				This information will also be emailed to <span class="input_account"></span> shortly.
+			</div>
+			<ul class="dr_completeList">
+				<li class="dr_listHeader clearfix">
+					<div class="dr_offerGold">000</div>
+					<div class="dr_floatL">Package</div>
+					<div class="dr_subTotal">$000.00</div>
+				</li>
+				<li class="dr_priceDetail clearfix">
+					<div class="dr_priceLabel">vat:</div>
+					<div class="dr_priceTax dr_priceValue">$000.00</div>
+					<div class="dr_priceLabel">total:</div>
+					<div class="dr_priceTotal dr_priceValue">$000.00</div>
+				</li>
+				<li class="dr_completeInfo">
+					<div class="clearfix">
+						<div class="dr_infoLabel">Payment method:</div>
+						<div class="dr_infoContent dr_completePayment">Visa ending in **00</div>
+					</div>
+					<div class="clearfix">
+						<div class="dr_infoLabel">BATTLECRY account:</div>
+						<div class="dr_infoContent input_account">DudeBro@Gmail.com</div>
+					</div>
+					<div class="clearfix" style="display: none;">
+						<div class="dr_infoLabel">Date confirmed:</div>
+						<div class="dr_infoContent">Wed Apr 01 11:25:39 2015</div>
+					</div>
+				</li>
+			</ul>
+			<div class="dr_buttonBar clearfix">
+				<div class="btn_finish dr_floatR"><div>done</div></div>
+			</div>
+		</div>
+		<!-- END Thank you page-->
+		<!-- START footer-->
+		<div id="dr_footer">
+			<div class="logo_bethesda"></div>
+			<div id="selling_entity">Digital River, Inc. is the authorized reseller and merchant of the products and services offered within this store.</div>
+			<div>
+				<a class="dr_termsSales" href="${TermsOfSale}" target="_blank">Terms of Service</a>
+        <a class="dr_privacyPolicy" href="${PrivacyPolicy}" target="_blank">Privacy Policy</a>
+			</div>
+		</div>
+		<!-- END footer-->
+	</div>
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/json2.min.js" ></script>
+  <script type="text/javascript" src="js/jquery.validate.js"></script>
+  <script type="text/javascript" src="js/jquery.customSelect.min.js" ></script>
+  <script type="text/javascript" src="js/config-local.js"></script>
+  <script type="text/javascript" src="js/store-utils.js"></script>
+  <script type="text/javascript" src="js/store.js"></script>
+</body>
+
+</html>

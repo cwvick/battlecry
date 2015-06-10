@@ -1,0 +1,131 @@
+{
+  "address": [
+    {
+      "type": "billing",
+      "active": true,
+      "accountId": "6533339",
+      "firstName": "Floriano",
+      "lastName": "Kriz",
+      "email": "fkriz@digooitalroiver.com",
+      "street1": "Pyhrnstrasse 8",
+      "street2": null,
+      "zipCode": "894055",
+      "city": "Liezen",
+      "countryCode": "ESP",
+      "stateCode": null,
+      "stateCodeSimple": null,
+      "addressStatus": "none",
+      "validFrom": 1382445224524,
+      "addressDetailId": "770216",
+      "company": null,
+      "phone": "06508141609",
+      "defaultShipping": false,
+      "defaultBilling": true,
+      "countryIsoCode": "ES"
+    }
+  ],
+  "userLocalizationData": {
+    "currencyIdentifier": "EUR",
+    "countryIdentifier": "ESP",
+    "countryOrigin": "none",
+    "alpha2CountryIdentifier": "ES",
+    "language": "en",
+    "externalIdentityId": "QA_fkriz",
+    "externalAccountId": "QA_fkriz",
+    "referenceId": "QA_fkriz"
+  },
+  "paymentTypes": [
+    {
+      "name": null,
+      "state": null,
+      "type": null,
+      "scope": null,
+      "cvcCode": null,
+      "active": null,
+      "accountId": null,
+      "paymentType": "cpgCreditCard",
+      "expiresMonth": 0,
+      "expiresYear": 2000,
+      "token": null,
+      "lastFourDigits": null,
+      "displayValue": null,
+      "paymentInfoExternalId": null,
+      "defaultPayment": false,
+      "creditCardExternalId": null,
+      "expiryNotificationDate": null
+    },
+    {
+      "referencedBillingInfoExternalId": null,
+      "scope": null,
+      "firstName": null,
+      "lastName": null,
+      "email": null,
+      "paymentType": "cpgELV",
+      "lastChange": null,
+      "defaultPayment": false,
+      "referencedTxId": null,
+      "externalIdentityId": null,
+      "externalAccountId": null,
+      "referenceId": null
+    },
+    {
+      "referencedBillingInfoExternalId": null,
+      "scope": null,
+      "firstName": null,
+      "lastName": null,
+      "email": null,
+      "paymentType": "cpgPayPal",
+      "lastChange": null,
+      "defaultPayment": false,
+      "referencedTxId": null,
+      "externalIdentityId": null,
+      "externalAccountId": null,
+      "referenceId": null
+    },
+    {
+      "scope": "defaultPayment",
+      "externalIdentityId": null,
+      "paymentType": "cpgPaySafeCard",
+      "displayValue": "cpgPaySafeCard",
+      "paymentInfoExternalId": null,
+      "defaultPayment": true
+    }
+  ],
+  "identities": [
+    {
+      "recurring": true,
+      "startDate": 1394181008000,
+      "endDate": null,
+      "subscription": {
+        "id": "0995b6e0-4f54-4499-b224-b47bb17bdeb1"
+      },
+      "nextBillingDate": 1396773008000,
+      "trialStartDate": 1394181008000,
+      "cancelDate": null,
+      "name": "QA_fkriz",
+      "attributes": [
+        {
+          "name": "Elite",
+          "inGameId": "elite_status:elite",
+          "category": null,
+          "sourceType": null,
+          "sourceInGameId": null
+        },
+        {
+          "name": "Elite",
+          "inGameId": "elite_status:elite",
+          "category": null,
+          "sourceType": null,
+          "sourceInGameId": null
+        }
+      ],
+      "gameIdentifier": null,
+      "externalIdentityId": "QA_fkriz",
+      "externalAccountId": null,
+      "referenceId": null
+    }
+  ],
+  "storeMaintenance": false,
+  "recurringBuyer": true,
+  "termsConditionsResponse": null
+}

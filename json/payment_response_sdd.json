@@ -1,0 +1,26 @@
+{ 
+   "bankBillingInfoId": "135", 
+   "addressId": "861486", 
+   "creditCardId": null, 
+   "mandate": { 
+      "clientConfigId": null, 
+      "languageTwoLetters": "de", 
+      "debtorCountry": "Deutschland", 
+      "debtorName": "Volodymyr Krokhmal", 
+      "debtorAddress": "Felberstrasse 82/17", 
+      "debtorPostalCode": "10115", 
+      "debtorCity": "Vienna", 
+      "mandateUniqueReference": "278ca7f3-a36e-4d9b-a905-6d0ca937fd63", 
+      "debtorIBAN": "DE17742510200240688846", 
+      "debtorBankBIC": "BYLADEM1CHM", 
+      "mandateDate": 1389819262058, 
+      "mandateType": "RECURRING", 
+      "mandateState": "NEW", 
+      "creditorCompanyInfo": "Digital River World Payments AB, Textilgatan 31, 120 30 Stockholm, Sweden", 
+      "creditorCompanyId": "GB95DRWSDDCHAS00000041311043", 
+      "bankBillingInfoId": 135, 
+      "initialTransactionId": null, 
+      "mandateSignatureEmail": null, 
+      "expiredAtDate": null 
+   } 
+} 

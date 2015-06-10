@@ -1,0 +1,242 @@
+{
+   "address" :
+      [
+         {
+            "type" : "billing",
+            "accountId" : "5749219",
+            "active" : true,
+            "firstName" : "test",
+            "email" : "pass@fraud.com",
+            "city" : "test",
+            "street1" : "test address  ",
+            "street2" : null,
+            "lastName" : "test",
+            "phone" : "123123123123",
+            "addressDetailId" : "4537",
+            "zipCode" : "12366",
+            "stateCode" : "USA-CA",
+            "countryCode" : "USA",
+            "validFrom" : 1375451240029,
+            "countryIsoCode" : "US",
+            "stateCodeSimple" : "CA",
+            "defaultBilling" : true,
+            "addressStatus" : "none",
+            "defaultShipping" : false,
+            "company" : null
+         }
+      ],
+     "identities" :
+      [
+         {
+            "subscription" :
+               {
+                  "id" : "5e05cc5f-ba66-4741-8815-2fc17d42775d"
+               },
+            "startDate" : 1375799460000,
+            "endDate" : 1375885860000,
+            "nextBillingDate" : 1375885860000,            
+            "trialStartDate" : 1375799460000,
+            "cancelDate" : null,
+            "recurring" : true,
+            "name" : "mho1",
+            "attributes" :
+               [
+                  {
+                     "name" : "Elite",
+                     "sourceType" : null,
+                     "category" : null,
+                     "inGameId" : "elite_status:elite",
+                     "sourceInGameId" : null
+                  },
+                  {
+                     "name" : "Elite",
+                     "sourceType" : null,
+                     "category" : null,
+                     "inGameId" : "elite_status:elite",
+                     "sourceInGameId" : null
+                  },
+                  {
+                     "name" : "Elite",
+                     "sourceType" : null,
+                     "category" : null,
+                     "inGameId" : "elite_status:elite",
+                     "sourceInGameId" : null
+                  }
+               ],
+            "gameIdentifier" : "tera",
+            "referenceId" : null,
+            "externalAccountId" : null,
+            "externalIdentityId" : "mho1"
+         }
+      ],
+   "paymentTypes" :
+      [
+            {
+            "signature": null,
+            "scope": null,
+            "accountId": "10327499",
+            "externalIdentityId": null,
+            "paymentType": "cpgSEPADirectDebit",
+            "lastChange": null,
+            "bankBranchNumber": "DEUTDEDKXXX",
+            "bankName": null,
+            "bankBillingInfoExternalId": "12081",
+            "driversLicenseEnding": null,
+            "driversLicenseStateTwoLettersAlphaCode": null,
+            "driversLicenseState": null,
+            "displayValue": "4975",
+            "paymentInfoExternalId": "12081",
+            "defaultPayment": true,
+            "bankAccountHolder": "Vlad Krokh"
+          },
+          {
+            "referencedBillingInfoExternalId": null,
+            "scope": null,
+            "firstName": null,
+            "lastName": null,
+            "email": null,
+            "lastChange": null,
+            "paymentType": "cpgIBP",
+            "defaultPayment": true,
+            "referencedTxId": null,
+            "externalAccountId": null,
+            "externalIdentityId": null,
+            "referenceId": null
+          },
+         {
+            "name" : "test test",
+            "type" : "VISA",
+            "creditCardExternalId" : "2341",
+            "expiresMonth" : 1,
+            "cvcCodeAsString" : "",
+            "ccexpireMMYY" : "0115",
+            "expiresMonthForUI" : "01",
+            "expiresYearForUI" : "2015",
+            "ccexpireYYMM" : "1501",
+            "expiresYearForApi" : "15",
+            "cvcCode" : null,
+            "state" : "NOT_CHECKED",
+            "scope" : "defaultPayment",
+            "accountId" : "5749219",
+            "active" : true,
+            "token" : null,
+            "paymentType" : "cpgCreditCard",
+            "expiresYear" : 2015,
+            "lastFourDigits" : "1111",
+            "displayValue" : "1111",
+            "paymentInfoExternalId" : "2341",
+            "expiryNotificationDate" : null,
+            "defaultPayment" : true
+         },
+         {
+            "scope" : "defaultPayment",
+            "firstName" : null,
+            "email" : null,
+            "lastName" : null,
+            "paymentType" : "cpgPayPal",
+            "lastChange" : null,
+            "referencedTxId" : null,
+            "referencedBillingInfoExternalId" : null,
+            "defaultPayment" : true,
+            "referenceId" : null,
+            "externalAccountId" : null,
+            "externalIdentityId" : null
+         },
+         {
+            "referencedBillingInfoExternalId": null,
+            "scope": null,
+            "firstName": null,
+            "lastName": null,
+            "email": null,
+            "lastChange": null,
+            "paymentType": "cpgYandexMoney",
+            "defaultPayment": true,
+            "referencedTxId": null,
+            "externalAccountId": null,
+            "externalIdentityId": null,
+            "referenceId": null
+         },
+         {
+            "scope" : null,
+            "firstName" : null,
+            "email" : null,
+            "lastName" : null,
+            "paymentType" : "cpgPaySafeCard",
+            "lastChange" : null,
+            "referencedTxId" : null,
+            "referencedBillingInfoExternalId" : null,
+            "defaultPayment" : false,
+            "referenceId" : null,
+            "externalAccountId" : null,
+            "externalIdentityId" : null
+         }
+      ],
+   "userLocalizationData" :
+      {
+         "language" : "en",
+         "currencyIdentifier" : "USD",
+         "alpha2CountryIdentifier" : "US",
+         "countryIdentifier" : "USA",
+         "countryOrigin" : "none",
+         "referenceId" : "mho1",
+         "externalAccountId" : "mho1",
+         "externalIdentityId" : "mho1"
+      },
+   "storeMaintenance" : false, 
+     "banks": [
+    {
+      "bankName": "Bank Austria",
+      "bankId": "10"
+    },
+    {
+      "bankName": "Erste Bank und Sparkassen",
+      "bankId": "11"
+    },
+    {
+      "bankName": "Bankhaus Carl Spängler & Co. AG",
+      "bankId": "12"
+    },
+    {
+      "bankName": "Volksbank Gruppe",
+      "bankId": "13"
+    },
+    {
+      "bankName": "Hypo Tirol Bank AG",
+      "bankId": "14"
+    },
+    {
+      "bankName": "HYPO Oberösterreich,Salzburg,Steiermark",
+      "bankId": "15"
+    },
+    {
+      "bankName": "BAWAG P.S.K. AG",
+      "bankId": "16"
+    },
+    {
+      "bankName": "Ärztebank",
+      "bankId": "23"
+    },
+    {
+      "bankName": "HYPO NOE Landesbank AG",
+      "bankId": "24"
+    },
+    {
+      "bankName": "Hypo Landesbank Vorarlberg",
+      "bankId": "25"
+    },
+    {
+      "bankName": "Hypo Alpe-Adria-Bank AG",
+      "bankId": "26"
+    },
+    {
+      "bankName": "Investkredit Bank AG",
+      "bankId": "27"
+    },
+    {
+      "bankName": "Raiffeisen Bankengruppe Österreich",
+      "bankId": "8"
+    }
+  ],
+   "recurringBuyer": true,
+   "termsConditionsResponse" : null
+}

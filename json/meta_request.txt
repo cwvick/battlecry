@@ -1,0 +1,1 @@
+https://localhost/rest/store/meta/v1?language=en

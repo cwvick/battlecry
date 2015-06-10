@@ -1,0 +1,238 @@
+[{
+  "id": "10Gems",
+  "prices": [{
+    "id": "10GemsUSD32f0c8d5-bb2b-4785-b877-7e112351ebb0",
+    "price": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 4999,
+      "decimalAmount": 49.99
+    },
+    "priceOriginal": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 1000,
+      "decimalAmount": 10.0
+    },
+    "paymentForms": []
+  }],
+  "images": [],
+  "videos": [{
+    "id": null,
+    "label": "1",
+    "uri": "https://www.youtube.com/embed/IOUk2y0K2m8",
+    "locale": "en",
+    "descriptions": [{
+      "short": "English",
+      "long": "English Video",
+      "name": "English",
+      "locale": "en"
+    }]
+  }],
+  "tags": [],
+  "startDate": 1429626120000,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "1",
+    "descriptions": [{
+      "short": "10 Gems",
+      "long": "10 Gems",
+      "name": "10 Gems",
+      "locale": "en"
+    }],
+    "images": [],
+    "videos": [{
+      "id": null,
+      "label": "1",
+      "uri": "https://www.youtube.com/embed/IOUk2y0K2m8",
+      "locale": "en",
+      "descriptions": [{
+        "short": "English",
+        "long": "English Video",
+        "name": "English",
+        "locale": "en"
+      }]
+    }],
+    "quantity": null,
+    "monetaryValue": null,
+    "bundledItems": null
+  }],
+  "descriptions": [{
+    "short": "STANDARD",
+    "long": "<li class='included' data-hasqtip='0' aria-describedby='qtip-0'><i>Guild Wars 2:</i><br/> Heart of Thorns (includes Guild Wars 2 core game) </li>",
+    "name": "STANDARD",
+    "locale": "en"
+  }]
+}, {
+  "id": "30Gems",
+  "prices": [{
+    "id": "30GemsUSD3dd9551c-2a7e-4973-872e-0d5508a73ec9",
+    "price": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 9999,
+      "decimalAmount": 99.99
+    },
+    "priceOriginal": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 3000,
+      "decimalAmount": 30.0
+    },
+    "paymentForms": []
+  }],
+  "images": [],
+  "videos": [{
+    "id": null,
+    "label": "1",
+    "uri": "https://www.youtube.com/embed/IOUk2y0K2m8",
+    "locale": "en",
+    "descriptions": [{
+      "short": "English",
+      "long": "English Video",
+      "name": "English",
+      "locale": "en"
+    }]
+  }],
+  "tags": [],
+  "startDate": 1429626120000,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "3",
+    "descriptions": [{
+      "short": "30 Gems",
+      "long": "30 Gems",
+      "name": "30 Gems",
+      "locale": "en"
+    }],
+    "images": [],
+    "videos": [{
+      "id": null,
+      "label": "1",
+      "uri": "https://www.youtube.com/embed/IOUk2y0K2m8",
+      "locale": "en",
+      "descriptions": [{
+        "short": "English",
+        "long": "English Video",
+        "name": "English",
+        "locale": "en"
+      }]
+    }],
+    "quantity": null,
+    "monetaryValue": null,
+    "bundledItems": null
+  }],
+  "descriptions": [{
+    "short": "ULTIMATE",
+    "long": "<li class='included' data-hasqtip='7' aria-describedby='qtip-7'> Standard </li> <li class='included highlight' data-hasqtip='8' aria-describedby='qtip-8'> 3200 Gems </li> <li class='included' data-hasqtip='9' aria-describedby='qtip-9'> Additional Character Slot </li> <li class='included' data-hasqtip='10' aria-describedby='qtip-10'> Miniature Revenant Rytlock </li> <li class='included' data-hasqtip='11' aria-describedby='qtip-11'> Revenant Finisher </li> <li class='included' data-hasqtip='12' aria-describedby='qtip-12'> Mordremoth's Bane Guild Hall Decoration </li> <li class='included' data-hasqtip='13' aria-describedby='qtip-13'> Heart of Thorns Glider Skin </li>",
+    "name": "ULTIMATE",
+    "locale": "en"
+  }]
+}, {
+  "id": "40Gems",
+  "prices": [{
+    "id": "40GemsUSD9e71058f-ba93-4b3b-b81f-c121c1122924",
+    "price": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 300,
+      "decimalAmount": 3.0
+    },
+    "priceOriginal": {
+      "symbol": "USD",
+      "isoCode": "USD",
+      "type": "real",
+      "amount": 4000,
+      "decimalAmount": 40.0
+    },
+    "paymentForms": []
+  }, {
+    "id": "40GemsCANe9c36b61-0290-4d06-bb29-c6321dd1b20a",
+    "price": {
+      "symbol": "",
+      "isoCode": "CAN",
+      "type": "virtual",
+      "amount": 400,
+      "decimalAmount": 4.0
+    },
+    "priceOriginal": {
+      "symbol": "",
+      "isoCode": "CAN",
+      "type": "virtual",
+      "amount": 2000,
+      "decimalAmount": 20.0
+    },
+    "paymentForms": []
+  }, {
+    "id": "40GemsEUR09a73348-0491-4702-b13c-73b35c6dc52b",
+    "price": {
+      "symbol": "EUR",
+      "isoCode": "EUR",
+      "type": "real",
+      "amount": 200,
+      "decimalAmount": 2.0
+    },
+    "priceOriginal": {
+      "symbol": "EUR",
+      "isoCode": "EUR",
+      "type": "real",
+      "amount": 3000,
+      "decimalAmount": 30.0
+    },
+    "paymentForms": []
+  }],
+  "images": [],
+  "videos": [],
+  "tags": [],
+  "startDate": 1429626120000,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": {
+    "id": null,
+    "duration": null,
+    "trialDuration": null,
+    "billingInterval": null,
+    "recurring": null
+  },
+  "items": [{
+    "id": "4",
+    "descriptions": [{
+      "short": "40 Gems",
+      "long": "40 Gems",
+      "name": "40 Gems",
+      "locale": "en"
+    }],
+    "images": [],
+    "videos": [],
+    "quantity": null,
+    "monetaryValue": null,
+    "bundledItems": null
+  }],
+  "descriptions": [{
+    "short": "Upsell",
+    "long": "40 Gems",
+    "name": "Upsell",
+    "locale": "en"
+  }]
+}]

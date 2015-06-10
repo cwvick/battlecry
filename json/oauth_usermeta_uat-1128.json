@@ -1,0 +1,90 @@
+{
+  "address": [
+    {
+      "type": "billing",
+      "accountId": "9489600",
+      "active": true,
+      "firstName": "Florian",
+      "lastName": "Kriz",
+      "email": "jatasmes@gmx.at",
+      "street1": "Zwölfergasse 6/16",
+      "street2": null,
+      "zipCode": "11500",
+      "city": "Wien",
+      "countryCode": "DEU",
+      "stateCode": "USA-AA",
+      "stateCodeSimple": "AA",
+      "addressStatus": "none",
+      "validFrom": 1385552222107,
+      "addressDetailId": "843924",
+      "company": null,
+      "phone": null,
+      "defaultShipping": false,
+      "defaultBilling": true,
+      "countryIsoCode": "DE",
+      "stateText": "USA-AA"
+    }
+  ],
+  "userLocalizationData": {
+    "currencyIdentifier": "USD",
+    "countryIdentifier": "USA",
+    "countryOrigin": "external",
+    "alpha2CountryIdentifier": "US",
+    "language": "en",
+    "externalIdentityId": null,
+    "externalAccountId": "{3699d720-f134-44d3-9c15-fb2bc57f4add}",
+    "referenceId": "{3699d720-f134-44d3-9c15-fb2bc57f4add}"
+  },
+  "paymentTypes": [
+    {
+      "name": null,
+      "state": null,
+      "type": null,
+      "scope": "1",
+      "accountId": null,
+      "cvcCode": null,
+      "active": null,
+      "paymentType": "cpgCreditCard",
+      "expiresMonth": 0,
+      "expiresYear": 2000,
+      "lastFourDigits": null,
+      "displayValue": null,
+      "paymentInfoExternalId": null,
+      "defaultPayment": true,
+      "creditCardExternalId": null,
+      "expiryNotificationDate": null
+    },
+    {
+      "referencedBillingInfoExternalId": null,
+      "scope": null,
+      "firstName": null,
+      "lastName": null,
+      "email": null,
+      "paymentType": "cpgPayPal",
+      "lastChange": null,
+      "defaultPayment": false,
+      "referencedTxId": null,
+      "externalIdentityId": null,
+      "externalAccountId": null,
+      "referenceId": null
+    },
+    {
+      "referencedBillingInfoExternalId": null,
+      "scope": null,
+      "firstName": null,
+      "lastName": null,
+      "email": null,
+      "paymentType": "cpgPaySafeCard",
+      "lastChange": null,
+      "defaultPayment": false,
+      "referencedTxId": null,
+      "externalIdentityId": null,
+      "externalAccountId": null,
+      "referenceId": null
+    }
+  ],
+  "identities": [],
+  "storeMaintenance": false,
+  "recurringBuyer": true,
+  "termsConditionsResponse": null
+}

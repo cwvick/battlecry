@@ -1,0 +1,35 @@
+[{
+    "id": "GTAV-PC-SharkCard-8000Coins",
+    "prices": [{
+        "id": "GTAV-PC-SharkCard-8000CoinsJPYdca380b4-3194-4a9f-8352-fd4809db00a3",
+        "currency": "JPY",
+        "price": 1000.0,
+        "priceOriginal": 10.0
+    }],
+    "name": "GTAV-PC-SharkCard-8000Coins",
+    "shortDescription": "GTAV-PC-SharkCard-8000Coins",
+    "longDescription": "GTAV-PC-SharkCard-8000Coins",
+    "images": [{
+        "id": null,
+        "label": "1",
+        "uri": "//cdn.fatfoogoo.com/qa.pok/images/rockstar.com/Rohhaf345a9a60ef454a0844957b8f00.jpg"
+    }],
+    "tags": [],
+    "startDate": 1415958585642,
+    "endDate": null,
+    "deliveryDate": null,
+    "subscription": null,
+    "items": [{
+        "id": "GTAV-PC-SharkCard-8000Coins",
+        "name": "GTAV-PC-SharkCard-8000Coins",
+        "shortDescription": "GTAV-PC-SharkCard-8000Coins",
+        "longDescription": "GTAV-PC-SharkCard-8000Coins",
+        "images": [{
+            "id": null,
+            "label": "1",
+            "uri": "//cdn.fatfoogoo.com/qa.pok/images/rockstar.com/Rohhaf345a9a60ef454a0844957b8f00.jpg"
+        }],
+        "quantity": null
+    }],
+    "paymentForms": ["cpgCreditCard", "cpgPaySafeCard", "cpgClickAndBuy"]
+}]

@@ -1,0 +1,358 @@
+[  
+   {  
+      "id":"Testvc1",
+      "prices":[  
+         {  
+            "id":"Testvc1Gems0ede5034-78a8-4727-ad59-84d535456297",
+            "currency":"Gems",
+            "price":120.0,
+            "priceOriginal":120.0
+         },
+         {  
+            "id":"Testvc1gemcard0b419663-dad8-4d68-929c-032e928efbac",
+            "currency":"gemcard",
+            "price":150.0,
+            "priceOriginal":150.0
+         },
+         {  
+            "id":"Testvc1USD2793828b-3714-448b-a8a9-8ce633f2d364",
+            "currency":"USD",
+            "price":10.0,
+            "priceOriginal":10.0
+         },
+         {  
+            "id":"Testvc1CANef430c6d-6f3e-4f4c-bbf5-4e6d23da97eb",
+            "currency":"CAN",
+            "price":15.0,
+            "priceOriginal":15.0
+         },
+         {  
+            "id":"Testvc1EUR53e83feb-082e-42c5-94b0-17b6b8a4465c",
+            "currency":"EUR",
+            "price":5.0,
+            "priceOriginal":5.0
+         }
+      ],
+      "name":"testvc1",
+      "shortDescription":"testvc1",
+      "longDescription":"test offer for vc",
+      "images":[  
+         {  
+            "id":null,
+            "label":"1",
+            "uri":"//cdn.fatfoogoo.com/qa.pok/images/client4.com/3ldL374faa9a60ef18b9d153e4254b0d.png"
+         }
+      ],
+      "tags":[  
+
+      ],
+      "startDate":1418127816513,
+      "endDate":null,
+      "deliveryDate":null,
+      "subscription":null,
+      "items":[  
+         {  
+            "id":"fkriz_article",
+            "name":"testvc1",
+            "shortDescription":"testvc1",
+            "longDescription":"test offer for vc",
+            "images":[  
+               {  
+                  "id":null,
+                  "label":"1",
+                  "uri":"//cdn.fatfoogoo.com/qa.pok/images/client4.com/3ldL374faa9a60ef18b9d153e4254b0d.png"
+               }
+            ],
+            "quantity":null
+         }
+      ],
+      "paymentForms":[  
+
+      ]
+   },
+   {  
+      "id":"800Gems",
+      "prices":[  
+         {  
+            "id":"800GemsUSDf8c1285e-a828-4799-897f-7687540058dd",
+            "currency":"USD",
+            "price":10.0,
+            "priceOriginal":10.0
+         }
+      ],
+      "name":"800",
+      "shortDescription":"800",
+      "longDescription":"No Bonus",
+      "images":[  
+
+      ],
+      "tags":[  
+
+      ],
+      "startDate":1411467865679,
+      "endDate":3184526160000,
+      "deliveryDate":null,
+      "subscription":null,
+      "items":[  
+         {  
+            "id":"1",
+            "name":"800",
+            "shortDescription":"800",
+            "longDescription":"No Bonus",
+            "images":[  
+
+            ],
+            "quantity":null
+         }
+      ],
+      "paymentForms":[  
+
+      ]
+   },
+   {  
+      "id":"flockzocki",
+      "prices":[  
+         {  
+            "id":"flockzockiEUR1678ffb0-50f7-44b3-a2f2-82131744363e",
+            "currency":"EUR",
+            "price":2.0,
+            "priceOriginal":2.0
+         }
+      ],
+      "name":"Tets",
+      "shortDescription":"Tets",
+      "longDescription":"test",
+      "images":[  
+
+      ],
+      "tags":[  
+
+      ],
+      "startDate":1416935456380,
+      "endDate":null,
+      "deliveryDate":null,
+      "subscription":null,
+      "items":[  
+         {  
+            "id":"flockizocki",
+            "name":"Tets",
+            "shortDescription":"Tets",
+            "longDescription":"test",
+            "images":[  
+
+            ],
+            "quantity":null
+         }
+      ],
+      "paymentForms":[  
+
+      ]
+   },
+   {  
+      "id":"1600Gems",
+      "prices":[  
+         {  
+            "id":"1600GemsUSD772f9e40-f016-46b1-a2ec-289144f21df2",
+            "currency":"USD",
+            "price":20.0,
+            "priceOriginal":20.0
+         }
+      ],
+      "name":"1600",
+      "shortDescription":"1600",
+      "longDescription":"No Bonus",
+      "images":[  
+
+      ],
+      "tags":[  
+
+      ],
+      "startDate":1411468029796,
+      "endDate":null,
+      "deliveryDate":null,
+      "subscription":null,
+      "items":[  
+         {  
+            "id":"2",
+            "name":"1600",
+            "shortDescription":"1600",
+            "longDescription":"No Bonus",
+            "images":[  
+
+            ],
+            "quantity":null
+         }
+      ],
+      "paymentForms":[  
+
+      ]
+   },
+   {  
+      "id":"2800Gems",
+      "prices":[  
+         {  
+            "id":"2800GemsUSD8c9a4030-bf1f-4635-847d-30c3677e8569",
+            "currency":"USD",
+            "price":35.0,
+            "priceOriginal":35.0
+         },
+         {  
+            "id":"2800GemsTeoTest123",
+            "currency":null,
+            "price":0.0,
+            "priceOriginal":0.0
+         }
+      ],
+      "name":"2800",
+      "shortDescription":"2800",
+      "longDescription":"No Bonus",
+      "images":[  
+
+      ],
+      "tags":[  
+
+      ],
+      "startDate":1411468029463,
+      "endDate":3184526160000,
+      "deliveryDate":null,
+      "subscription":null,
+      "items":[  
+         {  
+            "id":"3",
+            "name":"2800",
+            "shortDescription":"2800",
+            "longDescription":"No Bonus",
+            "images":[  
+
+            ],
+            "quantity":null
+         }
+      ],
+      "paymentForms":[  
+
+      ]
+   },
+   {  
+      "id":"4000Gems",
+      "prices":[  
+         {  
+            "id":"4000GemsUSDdfbebc69-ba92-45dd-88fa-287ea310c189",
+            "currency":"USD",
+            "price":50.0,
+            "priceOriginal":50.0
+         }
+      ],
+      "name":"4000",
+      "shortDescription":"4000",
+      "longDescription":"No Bonus",
+      "images":[  
+
+      ],
+      "tags":[  
+
+      ],
+      "startDate":1411468029083,
+      "endDate":3184526160000,
+      "deliveryDate":null,
+      "subscription":null,
+      "items":[  
+         {  
+            "id":"4",
+            "name":"4000",
+            "shortDescription":"4000",
+            "longDescription":"No Bonus",
+            "images":[  
+
+            ],
+            "quantity":null
+         }
+      ],
+      "paymentForms":[  
+
+      ]
+   },
+   {  
+      "id":"8000Gems",
+      "prices":[  
+         {  
+            "id":"8000GemsUSDb17f061e-2a32-4f0d-8e79-e2f1ae54c82d",
+            "currency":"USD",
+            "price":100.0,
+            "priceOriginal":100.0
+         }
+      ],
+      "name":"8000",
+      "shortDescription":"8000",
+      "longDescription":"No Bonus",
+      "images":[  
+
+      ],
+      "tags":[  
+
+      ],
+      "startDate":1411468027723,
+      "endDate":3184526160000,
+      "deliveryDate":null,
+      "subscription":null,
+      "items":[  
+         {  
+            "id":"5",
+            "name":"8000",
+            "shortDescription":"8000",
+            "longDescription":"No Bonus",
+            "images":[  
+
+            ],
+            "quantity":null
+         }
+      ],
+      "paymentForms":[  
+
+      ]
+   },
+   {  
+      "id":"2801",
+      "prices":[  
+         {  
+            "id":"2801USDbaf30242-e2b0-4fc1-bc91-6fe20ad14018",
+            "currency":"USD",
+            "price":12.0,
+            "priceOriginal":12.0
+         },
+         {  
+            "id":"2801TeoTest123",
+            "currency":null,
+            "price":0.0,
+            "priceOriginal":0.0
+         }
+      ],
+      "name":"2801",
+      "shortDescription":"2801",
+      "longDescription":"2801Gems",
+      "images":[  
+
+      ],
+      "tags":[  
+
+      ],
+      "startDate":1411465717594,
+      "endDate":null,
+      "deliveryDate":null,
+      "subscription":null,
+      "items":[  
+         {  
+            "id":"2800Gems",
+            "name":"2801",
+            "shortDescription":"2801",
+            "longDescription":"2801Gems",
+            "images":[  
+
+            ],
+            "quantity":null
+         }
+      ],
+      "paymentForms":[  
+
+      ]
+   }
+]

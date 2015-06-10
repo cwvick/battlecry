@@ -1,0 +1,22 @@
+{
+  "result": [
+    {
+      "threshold": 0.0,
+      "currencyIdentifier": "bought",
+      "amount": 333000,
+      "order": 101,
+      "decimalAmount": 3330.0,
+      "walletType": "regular",
+      "thresholdEnabled": false,
+      "accountId": "117847",
+      "identityId": null,
+      "externalIdentityId": null,
+      "externalAccountId": "147147",
+      "referenceId": "147147"
+    }
+  ],
+  "count": 0,
+  "from": 0,
+  "countTotal": 0,
+  "exactCountTotal": true
+}

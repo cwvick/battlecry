@@ -1,0 +1,26 @@
+{
+  "bankBillingInfoId": "12081",
+  "addressId": "1170611",
+  "creditCardId": null,
+  "mandate": {
+    "clientConfigId": null,
+    "mandateState": "SIGNED",
+    "mandateDate": 1390216071488,
+    "mandateType": "RECURRING",
+    "creditorCompanyId": "GB95DRWSDDCHAS00000041311043",
+    "creditorCompanyInfo": "Digital River World Payments AB, Textilgatan 31, 120 30 Stockholm, Sweden",
+    "debtorBankBIC": "DEUTDEDKXXX",
+    "debtorIBAN": "DE90370700600001934975",
+    "debtorCountry": "Germany",
+    "debtorCity": "Berlin",
+    "debtorPostalCode": "10115",
+    "debtorAddress": "Felberstr",
+    "debtorName": "Vlad Krokh",
+    "mandateUniqueReference": "8687f0b9b4984f548765673ed9b031d6",
+    "mandateSignatureEmail": "vkrokhmal@digitalriver.com",
+    "bankBillingInfoId": 12081,
+    "initialTransactionId": "RKCSCE12",
+    "expiredAtDate": null,
+    "languageTwoLetters": "en"
+  }
+}

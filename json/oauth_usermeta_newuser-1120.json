@@ -1,0 +1,101 @@
+{
+  "address": [
+    {
+      "type": null,
+      "accountId": null,
+      "active": true,
+      "firstName": null,
+      "lastName": null,
+      "email": "customerclient2.com@fatfoogoo.com",
+      "street1": null,
+      "street2": null,
+      "zipCode": null,
+      "city": null,
+      "countryCode": null,
+      "stateCode": null,
+      "stateCodeSimple": null,
+      "addressStatus": null,
+      "validFrom": null,
+      "addressDetailId": null,
+      "company": null,
+      "phone": null,
+      "defaultShipping": false,
+      "defaultBilling": false,
+      "countryIsoCode": null
+    }
+  ],
+  "userLocalizationData": {
+    "currencyIdentifier": "USD",
+    "countryIdentifier": "USA",
+    "countryOrigin": "none",
+    "alpha2CountryIdentifier": "US",
+    "language": "en",
+    "externalIdentityId": "bbbb",
+    "externalAccountId": "bbbb",
+    "referenceId": "bbbb"
+  },
+  "paymentTypes": [
+    {
+      "referencedBillingInfoExternalId": null,
+      "scope": null,
+      "firstName": null,
+      "lastName": null,
+      "email": null,
+      "paymentType": "cpgCreditCard",
+      "lastChange": null,
+      "defaultPayment": false,
+      "referencedTxId": null,
+      "externalIdentityId": null,
+      "externalAccountId": null,
+      "referenceId": null
+    },
+    {
+      "referencedBillingInfoExternalId": null,
+      "scope": null,
+      "firstName": null,
+      "lastName": null,
+      "email": null,
+      "paymentType": "cpgPayPal",
+      "lastChange": null,
+      "defaultPayment": false,
+      "referencedTxId": null,
+      "externalIdentityId": null,
+      "externalAccountId": null,
+      "referenceId": null
+    },
+    {
+      "referencedBillingInfoExternalId": null,
+      "scope": null,
+      "firstName": null,
+      "lastName": null,
+      "email": null,
+      "paymentType": "cpgPaySafeCard",
+      "lastChange": null,
+      "defaultPayment": false,
+      "referencedTxId": null,
+      "externalIdentityId": null,
+      "externalAccountId": null,
+      "referenceId": null
+    }
+  ],
+  "identities": [
+    {
+      "recurring": false,
+      "startDate": null,
+      "endDate": null,
+      "subscription": null,
+      "nextBillingDate": null,
+      "trialStartDate": null,
+      "cancelDate": null,
+      "name": "bbbb",
+      "attributes": [],
+      "gameIdentifier": null,
+      "externalIdentityId": "bbbb",
+      "externalAccountId": null,
+      "referenceId": null
+    }
+  ],
+  "storeMaintenance": false,
+  "recurringBuyer": false,
+  "termsConditionsResponse": null
+}

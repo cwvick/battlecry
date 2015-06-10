@@ -1,0 +1,1 @@
+﻿callback({"transactionId":"BHGR988A","amount":"50.0","amountTotal":"50.0","tax":"0.0","redirectURL":null});

@@ -1,0 +1,78 @@
+[{
+  "id": "upselling_test_theo_1",
+  "name": "upselling_test_theo_campaign",
+  "shortDescription": "upselling_test_theo_campaign",
+  "upsellingOffers": [{
+    "deliveryDate": null,
+    "endDate": null,
+    "id": "Teo_Ultimate_1",
+    "images": [],
+    "items": [{
+      "id": "2",
+      "images": [],
+      "longDescription": "Ultimate Upgrade to test upselling",
+      "name": "Ultimate Upgrade",
+      "quantity": null,
+      "shortDescription": "Ultimate Upgrade"
+    }],
+    "longDescription": "Ultimate Upgrade to test upselling",
+    "name": "Ultimate Upgrade",
+    "paymentForms": [],
+    "prices": [{
+      "currency": "USD",
+      "id": "Teo_Ultimate_1USD1a27a320-9230-47e7-b01d-1b5d1ac9430b",
+      "price": 2.0,
+      "priceOriginal": 2.0
+    }, {
+      "currency": "CAN",
+      "id": "Teo_Ultimate_1CANd0c0955c-2f36-4966-80cb-ba2baac8a3ea",
+      "price": 3.0,
+      "priceOriginal": 3.0
+    }, {
+      "currency": "EUR",
+      "id": "Teo_Ultimate_1EURe9dbbec2-ecda-4abb-a660-4ee734e80a67",
+      "price": 2.0,
+      "priceOriginal": 2.0
+    }],
+    "shortDescription": "Ultimate Upgrade",
+    "startDate": 1429618600249,
+    "subscription": null,
+    "tags": []
+  }, {
+    "deliveryDate": null,
+    "endDate": null,
+    "id": "Teo_deluxe_1",
+    "images": [],
+    "items": [{
+      "id": "1",
+      "images": [],
+      "longDescription": "Deluxe Upgrade to test upselling",
+      "name": "Deluxe Upgrade",
+      "quantity": null,
+      "shortDescription": "Deluxe Upgrade"
+    }],
+    "longDescription": "Deluxe Upgrade to test upselling",
+    "name": "Deluxe Upgrade",
+    "paymentForms": [],
+    "prices": [{
+      "currency": "USD",
+      "id": "Teo_deluxe_1USD0103986d-4966-4e52-8631-4adf1acddd90",
+      "price": 2.0,
+      "priceOriginal": 2.0
+    }, {
+      "currency": "EUR",
+      "id": "Teo_deluxe_1EUR0fb9966c-35e7-4380-85eb-786db90941c4",
+      "price": 2.0,
+      "priceOriginal": 2.0
+    }, {
+      "currency": "CAN",
+      "id": "Teo_deluxe_1CAN91df2a4e-255b-4c1e-b95d-2138f70ea519",
+      "price": 3.0,
+      "priceOriginal": 3.0
+    }],
+    "shortDescription": "Deluxe Upgrade",
+    "startDate": 1429618512404,
+    "subscription": null,
+    "tags": []
+  }]
+}]

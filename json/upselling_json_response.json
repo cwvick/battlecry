@@ -1,0 +1,80 @@
+[{
+  "id": "2800Gems",
+  "name": "STANDARD",
+  "shortDescription": "2800",
+  "upsellingOffers": [{
+    "deliveryDate": null,
+    "endDate": null,
+    "id": "1600Gems",
+    "images": [{
+      "id": null,
+      "label": "1",
+      "uri": "images/upsell-img01.png",
+      "locale": "en",
+      "descriptions": [{
+        "locale": "en",
+        "short": null,
+        "long": "test description 1",
+        "name": "image_1"
+      }]
+    }],
+    "items": [{
+      "id": "160",
+      "images": [],
+      "longDescription": "370 Platinum",
+      "name": "370 Platinum",
+      "quantity": null,
+      "shortDescription": "370 Platinum"
+    }],
+    "longDescription": "Upgrade to Deluxe to receive:<br>an additional charater slot, a Miniature Revenant Rytlock, a Reveant Finisher, a Mordremoth's BaneGuild Hall Decoration, and a Heart of Thorns Glider Skin.",
+    "name": "Deluxe Upgrade",
+    "paymentForms": ["cpgCreditCard", "cpgPayPal", "cpgPaySafeCard"],
+    "prices": [{
+      "id": "1600GemsUSD3468c168-4af8-43ac-90e9-dd6a2d270f6a",
+      "currency": "USD",
+      "price": 74.99,
+      "priceOriginal": 74.99
+    }],
+    "shortDescription": "1600",
+    "startDate": 1410859519967,
+    "subscription": null,
+    "tags": []
+  },{
+    "deliveryDate": null,
+    "endDate": null,
+    "id": "800Gems",
+    "images": [{
+      "id": null,
+      "label": "1",
+      "uri": "images/upsell-img02.png",
+      "locale": "en",
+      "descriptions": [{
+        "locale": "en",
+        "short": null,
+        "long": "test description 1",
+        "name": "image_1"
+      }]
+    }],
+    "items": [{
+      "id": "160",
+      "images": [],
+      "longDescription": "370 Platinum",
+      "name": "370 Platinum",
+      "quantity": null,
+      "shortDescription": "370 Platinum"
+    }],
+    "longDescription": "Don't miss out on our best value!<br>Upgrade to Ultimate and get everything in Deluxe, Plus 3200 gems to treat yourself to outfits, special items, and other great upgrades in the Gem Store.",
+    "name": "Ultimate Upgrade",
+    "paymentForms": [],
+    "prices": [{
+      "id": "800GemsUSD6cec6e2d-6858-4ea8-9ff5-d1781e030437",
+      "currency": "USD",
+      "price": 99.99,
+      "priceOriginal": 99.99
+    }],
+    "shortDescription": "800",
+    "startDate": 1410859519967,
+    "subscription": null,
+    "tags": []
+  }]
+}]

@@ -1,0 +1,1 @@
+https://localhost/rest/services/offers/v2/?language=en&from=0&count=10&orderBy=price&ascending=false&virtual=false

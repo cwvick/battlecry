@@ -1,0 +1,126 @@
+[
+  {
+    "id": "40Coins",
+    "prices": [
+      {
+        "id": "40CoinsUSD9e71058f-ba93-4b3b-b81f-c121c1122924",
+        "currency": "USD",
+        "price": 40.0,
+        "priceOriginal": 40.0
+      }
+    ],
+    "name": "40 Coins",
+    "shortDescription": "40 Coins",
+    "longDescription": "40 Coins",
+    "images": [],
+    "tags": [],
+    "startDate": 1403525343159,
+    "endDate": null,
+    "deliveryDate": null,
+    "subscription": null,
+    "items": [
+      {
+        "id": "4",
+        "name": "40 Coins",
+        "shortDescription": "40 Coins",
+        "longDescription": "40 Coins",
+        "images": [],
+        "quantity": null
+      }
+    ],
+    "paymentForms": []
+  },
+  {
+    "id": "30Coins",
+    "prices": [
+      {
+        "id": "30CoinsUSD3dd9551c-2a7e-4973-872e-0d5508a73ec9",
+        "currency": "USD",
+        "price": 30.0,
+        "priceOriginal": 30.0
+      }
+    ],
+    "name": "30 Coins",
+    "shortDescription": "30 Coins",
+    "longDescription": "30 Coins",
+    "images": [],
+    "tags": [],
+    "startDate": 1403525277608,
+    "endDate": null,
+    "deliveryDate": null,
+    "subscription": null,
+    "items": [
+      {
+        "id": "3",
+        "name": "30 Coins",
+        "shortDescription": "30 Coins",
+        "longDescription": "30 Coins",
+        "images": [],
+        "quantity": null
+      }
+    ],
+    "paymentForms": []
+  },
+  {
+    "id": "20Coins",
+    "prices": [
+      {
+        "id": "20CoinsUSD5b0cbfec-642a-45a9-a459-d0749729939d",
+        "currency": "USD",
+        "price": 20.0,
+        "priceOriginal": 20.0
+      }
+    ],
+    "name": "20 Coins",
+    "shortDescription": "20 Coins",
+    "longDescription": "20 Coins",
+    "images": [],
+    "tags": [],
+    "startDate": 1403525214646,
+    "endDate": null,
+    "deliveryDate": null,
+    "subscription": null,
+    "items": [
+      {
+        "id": "2",
+        "name": "20 Coins",
+        "shortDescription": "20 Coins",
+        "longDescription": "20 Coins",
+        "images": [],
+        "quantity": null
+      }
+    ],
+    "paymentForms": []
+  },
+  {
+    "id": "10Coins",
+    "prices": [
+      {
+        "id": "10CoinsUSD32f0c8d5-bb2b-4785-b877-7e112351ebb0",
+        "currency": "USD",
+        "price": 10.0,
+        "priceOriginal": 10.0
+      }
+    ],
+    "name": "10 Coins",
+    "shortDescription": "10 Coins",
+    "longDescription": "10 Coins",
+    "images": [],
+    "tags": [],
+    "startDate": 1403525145455,
+    "endDate": null,
+    "deliveryDate": null,
+    "subscription": null,
+    "items": [
+      {
+        "id": "1",
+        "name": "10 Coins",
+        "shortDescription": "10 Coins",
+        "longDescription": "10 Coins",
+        "images": [],
+        "quantity": null
+      }
+    ],
+    "paymentForms": []
+  }
+]

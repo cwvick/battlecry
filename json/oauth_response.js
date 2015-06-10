@@ -1,0 +1,6 @@
+﻿callback({
+  "access_token" : "267168a7-3538-4fb7-a94b-1317a4901f57",
+  "token_type"   : "bearer",
+  "expires_in"   : 287,
+  "scope"        : "read write"
+});

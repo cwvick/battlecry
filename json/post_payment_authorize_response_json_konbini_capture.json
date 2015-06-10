@@ -1,0 +1,10 @@
+{ 
+   "amount": "1000.0", 
+   "amountTotal": "1000.0", 
+   "transactionId": "78LECC66", 
+   "tax": "0.0", 
+   "redirectURL": "http://payment.sej.co.jp:580/od/hi.asp?50100154425103737d3ed4ae46493d10", 
+   "authorizationCode": "7154425103730", 
+   "thankYouPageType": "INSTRUCTIONS_FOR_PURCHASE", 
+   "requestHeaders": null 
+}

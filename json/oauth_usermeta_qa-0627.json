@@ -1,0 +1,133 @@
+{
+  "address": [
+    {
+      "type": "billing",
+      "firstName": "balazs",
+      "lastName": "barnucz",
+      "email": "viennafoogoos@fatfoogoo.com",
+      "accountId": "6536547",
+      "company": null,
+      "active": true,
+      "street1": "doeblinger hauptstr. 21            ",
+      "street2": null,
+      "zipCode": "1190",
+      "city": "wien",
+      "countryCode": "AUT",
+      "stateCode": null,
+      "stateCodeSimple": null,
+      "addressStatus": "none",
+      "validFrom": 1371635688961,
+      "addressDetailId": "630100",
+      "phone": "123456789",
+      "defaultShipping": false,
+      "defaultBilling": true,
+      "countryIsoCode": "AT"
+    }
+  ],
+  "userLocalizationData": {
+    "language": "en",
+    "currencyIdentifier": "EUR",
+    "countryIdentifier": "AUT",
+    "countryOrigin": "none",
+    "alpha2CountryIdentifier": "AT",
+    "externalAccountId": "balazs",
+    "externalIdentityId": "character1",
+    "referenceId": "balazs"
+  },
+  "paymentTypes": [
+    {
+      "scope": null,
+      "firstName": null,
+      "lastName": null,
+      "email": null,
+      "lastChange": null,
+      "paymentType": "cpgPaySafeCard",
+      "defaultPayment": false,
+      "referencedTxId": null,
+      "referencedBillingInfoExternalId": null,
+      "externalAccountId": null,
+      "externalIdentityId": null,
+      "referenceId": null
+    },
+    {
+      "name": "dummy name",
+      "type": "MASTERCARD",
+      "cvcCode": null,
+      "expiresMonth": 12,
+      "creditCardExternalId": "2083",
+      "cvcCodeAsString": "",
+      "ccexpireMMYY": "201812",
+      "expiresMonthForUI": "12",
+      "expiresYearForUI": "2018",
+      "ccexpireYYMM": "832083",
+      "expiresYearForApi": "18",
+      "state": "NOT_CHECKED",
+      "scope": "defaultPayment",
+      "accountId": "6536547",
+      "active": true,
+      "paymentType": "cpgCreditCard",
+      "expiresYear": 2018,
+      "token": null,
+      "displayValue": "4017",
+      "paymentInfoExternalId": "2083",
+      "defaultPayment": true,
+      "lastFourDigits": "4017",
+      "expiryNotificationDate": null
+    },
+    {
+      "scope": null,
+      "firstName": null,
+      "lastName": null,
+      "email": null,
+      "lastChange": null,
+      "paymentType": "cpgPayPal",
+      "defaultPayment": false,
+      "referencedTxId": null,
+      "referencedBillingInfoExternalId": null,
+      "externalAccountId": null,
+      "externalIdentityId": null,
+      "referenceId": null
+    },
+    {
+      "scope": null,
+      "firstName": null,
+      "lastName": null,
+      "email": null,
+      "lastChange": null,
+      "paymentType": "cpgPayPalPreApproved",
+      "defaultPayment": false,
+      "referencedTxId": null,
+      "referencedBillingInfoExternalId": null,
+      "externalAccountId": null,
+      "externalIdentityId": null,
+      "referenceId": null
+    }
+  ],
+  "identities": [
+    {
+      "startDate": null,
+      "endDate": null,
+      "subscription": null,
+      "nextBillingDate": null,
+      "nextSubscription": null,
+      "trialStartDate": null,
+      "cancelDate": null,
+      "recurring": false,
+      "name": "character1",
+      "attributes": [
+        {
+          "name": "Elite",
+          "inGameId": "elite_status:elite",
+          "category": null,
+          "sourceType": null,
+          "sourceInGameId": null
+        }
+      ],
+      "gameIdentifier": null,
+      "externalAccountId": null,
+      "externalIdentityId": "character1",
+      "referenceId": null
+    }
+  ],
+  "termsConditionsResponse": null
+}

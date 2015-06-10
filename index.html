@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>BattleCry</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/cssfonts.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script type="text/javascript">
+  	var allowedHostAPIOrigins = '$!{store_allowed_host_api_origins}'.split(',');
+  	var storeLanguage = '${drog_store_language}';
+  	var _localizations = {
+  		'drog.storeMaintenance.header' : '${drog_storeMaintenance_header}',
+  		'drog.storeMaintenance.displayValue' : '${drog_storeMaintenance_displayValue}',
+  		'drog.error.sessionexpire.alert' : '${drog_error_sessionexpire_alert}',
+  		'drog.text.back.to.store' : '${drog_text_back_to_store}',
+  		'drog.terms.not.accepted' : '${drog_terms_not_accepted}',
+  		'drog.error.validation.alert' : '${drog_error_validation_alert}',
+  		'drog.transaction.progress.header' : '${drog_transaction_progress_header}',
+  		'drog.you.have.successfully.cancelled.your.transaction' : '${drog_you_have_successfully_cancelled_your_transaction}',
+  		'drog.please.try.again.by.using.a.different.payment.method' : '${drog_please_try_again_by_using_a_different_payment_method}',
+  		'drog.payment.externalinfo.message': '${drog_payment_externalinfo_message}',
+  		'drog.default.error': '${drog_default_error}',
+  		'drog.text.credit.card.ending' : '${drog_text_credit_card_ending}',
+  		'drog.text.edit': '${drog_text_edit}',
+  		'drog.back.to.store.full.url' : '${drog_back_to_store_full_url}',
+      'drog.back.to.store.purchase.finished.full.url' : '${drog_back_to_store_purchase_finished_full_url}',
+      'drog.text.offer.discount.was' : '${drog_text_offer_discount_was}',
+      'drog.text.offer.discount.save' : '${drog_text_offer_discount_save}',
+      'drog.text.offer.countdown.ends.in' : '${drog_text_offer_countdown_ends_in}',
+      'drog.text.offer.bonus' : '${drog_text_offer_bonus}',
+      'drog.link.battlecry.faq.url' : '${drog_link_battlecry_faq_url}',
+      'drog.link.battlecry.tos.url' : '${drog_link_battlecry_tos_url}'
+  	};
+  </script>
+</head>
+
+<body class="${drog_store_language}">
+	<!-- START ajax loading animation -->
+	<div class="dr_overlayWrapper">
+		<div class="dr_overlayContainer">
+			<div class="dr_overlayLoader"></div>
+			<div class="dr_overlayText">${drog_transaction_progress_header}</div>
+		</div>
+	</div>
+	<!-- END ajax loading animation -->
+	<div id="dr_container">
+		<!-- START popup message -->
+		<div class="dr_msgWrapper">
+			<div class="dr_msgText"></div>
+			<div class="btn_closePopup"></div>
+		</div>
+		<!-- END popup message -->
+		<!-- START store maintenance -->
+		<div class="step_wrapper dr_maintenance step-maintenance">
+			<div class="dr_maintenHeader"></div>
+			<div class="dr_maintenText"></div>
+		</div>
+		<!-- END store maintenance -->
+		<!-- START session timeout -->
+		<div class="step_wrapper dr_sessionExpire step-sessionExpire">
+			<div class="dr_expireText"></div>
+		</div>
+		<!-- END session timeout-->
+		<!-- START offer selection page -->
+		<div class="step_wrapper dr_offerSelect step-productSelection">
+			<div class="dr_offerTitle">
+				<div class="dr_subTitle">${drog_text_battlecry_subtitle}</div>
+				<div class="dr_mainTitle">${drog_text_battlecry_title}</div>
+				<div class="dr_shortDesc">${drog_text_battlecry_description}</div>
+			</div>
+			<ul class="dr_offerList clearfix">
+			</ul>
+		</div>
+		<!-- END offer selection page -->
+		<!-- START Payment & Billing info Page and Order confirmation page -->
+		<div class="step_wrapper dr_paymentSection step-paymentSelection">
+			<form id="payment-section" class="clearfix" autocomplete="off">
+				<!-- START Offer detail Information -->
+				<div class="dr_offerDetail">
+					<div class="clearfix">
+						<div class="dr_offerThumbnail">
+							<div class="dr_itemImg"></div>
+						</div>
+						<div class="dr_offerInfo">
+							<div class="logo_battlecry"></div>
+							<div class="dr_packageContent clearfix">
+								<div class="dr_offerGold"></div>
+								<div>${drog_text_battlecry_Package}</div>
+							</div>
+							<div class="dr_offerPrice clearfix"></div>
+							<div class="dr_itemService">${drog_text_items_and_services}</div>
+							<div class="dr_proDetail">
+								<div class="dr_title">${drog_text_product_details}</div>
+								<ul class="dr_detailList"></ul>
+							</div>
+						</div>
+					</div>
+					<div class="dr_longDesc"></div>
+				</div>
+				<!-- END Offer detail Information -->
+				<!-- START Payment and Billing info -->
+				<div class="dr_paymentWrapper">
+					<div class="dr_headerTitle">${drog_text_buynow}</div>
+					<!-- START Payment method selection & payment form -->
+					<div class="dr_paymentMethod">
+						<div class="dr_title">${drog_label_payment_method}</div>
+						<div class="dr_paymentDetail">
+							<div class="dr_paymentType clearfix">
+								<!-- START Payment method -->
+								<div class="dr_inputBox">
+									<div class="dr_label">${drog_text_select_payment_method}</div>
+									<select id="select-paymentType-hidden">
+										<option value="cpgCreditCard" data-name="${drog_paymentInfo_header_cpgCreditCard}">${drog_paymentInfo_header_cpgCreditCard}</option>
+										<option value="cpgPayPal" data-name="${drog_paymentInfo_header_cpgPayPal}">${drog_paymentInfo_header_cpgPayPal}</option>
+									</select>
+									<select id="select-paymentType"></select>
+								</div>
+								<!-- END Payment method -->
+								<!-- START Credit card form -->
+								<div class="dr_inputBox dr_paymentMethodBox" for="cpgCreditCard">
+									<div class="dr_label">${drog_wpsCard_expiration_date}</div>
+									<select id="cardExpirationMonth" name="cardExpirationMonth">
+	                  <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option>
+	                </select>
+	                <select id="cardExpirationYear" name="cardExpirationYear"></select>
+								</div>
+								<div class="dr_inputBox dr_paymentMethodBox" for="cpgCreditCard">
+									<div class="dr_label">${drog_wpsCard_cardnumber}</div>
+									<div class="clearfix">
+										<div class="dr_floatL">
+											<input type="text" name="cardNumber" id="cardNumber" placeholder="0000-0000-0000-0000"/>
+										</div>
+										<div class="img_cardType"></div>
+									</div>
+								</div>
+								<div class="dr_inputBox dr_paymentMethodBox" for="cpgCreditCard">
+									<div class="dr_label">${drog_wpsCard_cvv}</div>
+									<input type="password" name="cardSecurityCode" id="cardSecurityCode" value="" placeholder=""/>
+									<span class="btn_cvcInfo">?</span>
+									<div class="cvv_hint"></div>
+								</div>
+								<div class="dr_inputBox dr_paymentMethodBox dr_redirectInfo" for="cpgPayPal">
+									${drog_paymentInfo_external_redirect}
+								</div>
+								<!-- END Credit card form -->
+							</div>
+						</div>
+						<div class="dr_paymentNote">
+							${drog_payment_method_information}
+						</div>
+					</div>
+					<!-- END Payment method selection & payment form -->
+					<!-- START Billing information form -->
+					<div class="dr_billingInfo">
+						<div class="dr_title">${drog_label_billing_info}</div>
+						<div class="clearfix">
+							<div class="dr_floatL">
+								<div class="dr_inputBox required">
+									<div class="dr_label">${drog_address_firstName}</div>
+									<input type="text" name="firstname" id="firstname" value="" placeholder="" class="inputType1"/>
+								</div>
+								<div class="dr_inputBox required">
+									<div class="dr_label">${drog_address_lastName}</div>
+									<input type="text" name="lastname" id="lastname" value="" placeholder="" class="inputType1"/>
+								</div>
+								<div class="dr_inputBox required">
+									<div class="dr_label">${drog_address_street1}</div>
+									<input type="text" name="address" id="address" value="" placeholder="" class="inputType1"/>
+								</div>
+								<div class="dr_inputBox">
+									<div class="dr_label">${drog_address_street_extra}</div>
+									<input type="text" name="address-extra" id="address-extra" value="" placeholder="" class="inputType1"/>
+								</div>
+							</div>
+							<div class="dr_floatL">
+								<div class="dr_inputBox required">
+									<div class="dr_label">${drog_address_city}</div>
+									<input type="text" name="city" id="city" value="" placeholder="" class="inputType2"/>
+								</div>
+								<div class="dr_inputBox clearfix rowspan_2 required">
+									<div class="dr_floatL dr_stateWrapper">
+										<div class="dr_label">${drog_address_state}</div>
+										<select id="select-state"></select>
+									</div>
+									<div class="dr_floatR">
+										<div class="dr_label">${drog_address_zip}</div>
+										<input type="text" name="zipcode" id="zipcode" value="" placeholder="" class="inputType3"/>
+									</div>
+								</div>
+								<div class="dr_inputBox required">
+									<div class="dr_label">${drog_address_country}</div>
+									<select id="select-country"></select>
+								</div>
+								<div class="dr_inputBox required">
+									<div class="dr_label">${drog_address_phone}</div>
+									<input type="text" name="phone" id="phone" value="" placeholder="" class="inputType2"/>
+								</div>
+							</div>
+						</div>
+						<div class="dr_inputBox clearfix bc_account">
+							<div class="dr_label dr_floatL">${drog_text_battlecry_account}:</div>
+							<div class="dr_floatL input_account"></div>
+						</div>
+					</div>
+					<!-- END Billing information form -->
+					<!-- START Save user information -->
+					<div class="clearfix dr_saveInfoWrapper">
+						<div class="cb_saveInfo"></div>
+						<div class="text_saveInfo">${drog_text_save_info}</div>
+						<div class="note_saveInfo">${drog_text_payment_processer}</div>
+					</div>
+					<!-- END Save user information -->
+					<div class="dr_buttonBar clearfix">
+						<div class="btn_backToStore"><div>${drog_text_back_to_store}</div></div>
+						<a class="link_faq" href="#" target="_blank">${drog_text_faq}</a>
+						<div class="btn_next dr_floatR"><div>${drog_text_continue}</div></div>
+						<div class="dr_stepNote dr_floatR">${drog_text_review_order_hint}</div>
+					</div>
+				</div>
+				<!-- END Payment and Billing info -->
+				<!-- START Order confirmation page-->
+				<div class="dr_paymentConfirm">
+					<ul class="dr_confirmList">
+						<li class="dr_listHeader clearfix">
+							<div class="dr_offerGold"></div>
+							<div class="dr_floatL">${drog_text_battlecry_Package}</div>
+							<div class="dr_subTotal"></div>
+						</li>
+						<li class="dr_priceDetail clearfix">
+							<div class="dr_priceLabel">${drog_confirm_payment_price_tax}:</div>
+							<div class="dr_priceTax dr_priceValue"></div>
+							<div class="dr_priceLabel">${drog_confirm_payment_price_total}:</div>
+							<div class="dr_priceTotal dr_priceValue"></div>
+						</li>
+						<li class="dr_paymentInfo">
+							<div class="clearfix">
+								<div class="dr_infoTitle">${drog_label_payment_method}:</div>
+								<div class="dr_infoContent confirm_paymentType">
+									<span class="button_edit">${drog_text_edit}</span>
+								</div>
+							</div>
+							<div class="clearfix">
+								<div class="dr_infoTitle">${drog_label_billing_address}:</div>
+								<div class="dr_infoContent confirm_address"></div>
+							</div>
+							<div class="clearfix">
+								<div class="dr_infoTitle">${drog_confirm_address_phone}:</div>
+								<div class="dr_infoContent confirm_phone"></div>
+							</div>
+							<div class="clearfix">
+								<div class="dr_infoTitle">${drog_text_battlecry_account}:</div>
+								<div class="dr_infoContent">
+									<div class="input_account"></div>
+									<div class="email_note">${drog_confirm_email_send_to}</div>
+								</div>
+							</div>
+						</li>
+						<li class="dr_purchaseNote">
+							${drog_confirm_purchase_note}
+						</li>
+					</ul>
+					<div class="terms_container">
+						<div class="cb_AcceptTerms">
+							<div class="cb_icon"></div>
+							${drog_terms_cbox_message}
+						</div>
+						<div class="cb_AcceptPolicy">
+							<div class="cb_icon"></div>
+							${drog_policy_cbox_message}
+						</div>
+					</div>
+				</div>
+				<!-- END Order confirmation page-->
+			</form>
+			<div class="dr_buttonBar clearfix dr_confirmButtons">
+				<div class="btn_backToStore"><div>${drog_text_back_to_store}</div></div>
+				<a class="link_faq" href="#" target="_blank">${drog_text_faq}</a>
+				<div class="btn_purchase dr_floatR"><div>${drog_text_confirm_purchase}</div></div>
+			</div>
+		</div>
+		<!-- END Payment & Billing info Page and Order confirmation page -->
+		<!-- START Thank you page-->
+		<div class="step_wrapper dr_complete step-complete">
+			<div class="dr_headerTitle">${drog_text_thank_you_for_your_purchase}</div>
+			<div class="dr_subTitle">
+				${drog_text_thank_you_message}
+			</div>
+			<ul class="dr_completeList">
+				<li class="dr_listHeader clearfix">
+					<div class="dr_offerGold"></div>
+					<div class="dr_floatL">${drog_text_battlecry_Package}</div>
+					<div class="dr_subTotal"></div>
+				</li>
+				<li class="dr_priceDetail clearfix">
+					<div class="dr_priceLabel">${drog_confirm_payment_price_tax}:</div>
+					<div class="dr_priceTax dr_priceValue"></div>
+					<div class="dr_priceLabel">${drog_confirm_payment_price_total}:</div>
+					<div class="dr_priceTotal dr_priceValue"></div>
+				</li>
+				<li class="dr_completeInfo">
+					<div class="clearfix">
+						<div class="dr_infoLabel">${drog_label_payment_method}:</div>
+						<div class="dr_infoContent dr_completePayment"></div>
+					</div>
+					<div class="clearfix">
+						<div class="dr_infoLabel">${drog_text_battlecry_account}:</div>
+						<div class="dr_infoContent input_account"></div>
+					</div>
+					<div class="clearfix" style="display: none;">
+						<div class="dr_infoLabel">${drog_text_date_confirmed}:</div>
+						<div class="dr_infoContent"></div>
+					</div>
+				</li>
+			</ul>
+			<div class="dr_buttonBar clearfix">
+				<div class="btn_finish dr_floatR"><div>${drog_text_done}</div></div>
+			</div>
+		</div>
+		<!-- END Thank you page-->
+		<!-- START footer-->
+		<div id="dr_footer">
+			<div class="logo_bethesda"></div>
+			<div id="selling_entity"></div>
+			<div>
+				<a class="dr_termsSales" href="${TermsOfSale}" target="_blank">${drog_terms_termsService_name}</a>
+        <a class="dr_privacyPolicy" href="${PrivacyPolicy}" target="_blank">${drog_terms_privacyPolicy_name}</a>
+			</div>
+		</div>
+		<!-- END footer-->
+	</div>
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/json2.min.js" ></script>
+  <script type="text/javascript" src="js/jquery.validate.js"></script>
+  <script type="text/javascript" src="js/jquery.customSelect.min.js" ></script>
+  <script type="text/javascript" src="js/config.js"></script>
+  <script type="text/javascript" src="js/store-utils.js"></script>
+  <script type="text/javascript" src="js/store.js"></script>
+</body>
+
+</html>

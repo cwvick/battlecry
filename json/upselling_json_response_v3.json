@@ -1,0 +1,180 @@
+[{
+  "name": "upselling_test_theo_2",
+  "id": "upselling_test_theo_campaign_2",
+  "shortDescription": "upselling_test_theo_2",
+  "upsellingOffers": [{
+    "id": "Teo_Ultimate_2",
+    "prices": [{
+      "id": "Teo_Ultimate_2USD9ac3eeb4-3cac-4002-b66a-d76a58808d14",
+      "price": {
+        "symbol": "USD",
+        "isoCode": "USD",
+        "type": "real",
+        "amount": 500,
+        "decimalAmount": 5.0
+      },
+      "priceOriginal": {
+        "symbol": "USD",
+        "isoCode": "USD",
+        "type": "real",
+        "amount": 500,
+        "decimalAmount": 5.0
+      },
+      "paymentForms": []
+    }, {
+      "id": "Teo_Ultimate_2CAN017cb0d5-d332-445e-a41a-104cea37cc1d",
+      "price": {
+        "symbol": "",
+        "isoCode": "CAN",
+        "type": "virtual",
+        "amount": 700,
+        "decimalAmount": 7.0
+      },
+      "priceOriginal": {
+        "symbol": "",
+        "isoCode": "CAN",
+        "type": "virtual",
+        "amount": 700,
+        "decimalAmount": 7.0
+      },
+      "paymentForms": []
+    }, {
+      "id": "Teo_Ultimate_2EURefc088b1-ee7f-4d56-b303-85b487cb0384",
+      "price": {
+        "symbol": "EUR",
+        "isoCode": "EUR",
+        "type": "real",
+        "amount": 300,
+        "decimalAmount": 3.0
+      },
+      "priceOriginal": {
+        "symbol": "EUR",
+        "isoCode": "EUR",
+        "type": "real",
+        "amount": 300,
+        "decimalAmount": 3.0
+      },
+      "paymentForms": []
+    }],
+    "images": [],
+    "videos": [],
+    "tags": [],
+    "startDate": 1429782972254,
+    "endDate": null,
+    "deliveryDate": null,
+    "subscription": {
+      "id": null,
+      "duration": null,
+      "trialDuration": null,
+      "billingInterval": null,
+      "recurring": null
+    },
+    "items": [{
+      "id": "3",
+      "descriptions": [{
+        "short": null,
+        "long": "30 Gems",
+        "name": "30 Gems",
+        "locale": "en"
+      }],
+      "images": [],
+      "videos": [],
+      "quantity": null,
+      "monetaryValue": null,
+      "bundledItems": null
+    }],
+    "descriptions": [{
+      "short": null,
+      "long": "Ultimate Upgrade for iges catalog",
+      "name": "Ultimate Upgrade",
+      "locale": "en"
+    }]
+  }, {
+    "id": "Teo_deluxe_2",
+    "prices": [{
+      "id": "Teo_deluxe_2USDb7b890b1-d97b-4af2-a000-04dc9674b1e7",
+      "price": {
+        "symbol": "USD",
+        "isoCode": "USD",
+        "type": "real",
+        "amount": 900,
+        "decimalAmount": 9.0
+      },
+      "priceOriginal": {
+        "symbol": "USD",
+        "isoCode": "USD",
+        "type": "real",
+        "amount": 900,
+        "decimalAmount": 9.0
+      },
+      "paymentForms": []
+    }, {
+      "id": "Teo_deluxe_2CANd4ad8999-af4d-49d6-be5e-87f3948d4161",
+      "price": {
+        "symbol": "",
+        "isoCode": "CAN",
+        "type": "virtual",
+        "amount": 800,
+        "decimalAmount": 8.0
+      },
+      "priceOriginal": {
+        "symbol": "",
+        "isoCode": "CAN",
+        "type": "virtual",
+        "amount": 800,
+        "decimalAmount": 8.0
+      },
+      "paymentForms": []
+    }, {
+      "id": "Teo_deluxe_2EUR92d732af-df59-492a-93f5-9228c7606668",
+      "price": {
+        "symbol": "EUR",
+        "isoCode": "EUR",
+        "type": "real",
+        "amount": 500,
+        "decimalAmount": 5.0
+      },
+      "priceOriginal": {
+        "symbol": "EUR",
+        "isoCode": "EUR",
+        "type": "real",
+        "amount": 500,
+        "decimalAmount": 5.0
+      },
+      "paymentForms": []
+    }],
+    "images": [],
+    "videos": [],
+    "tags": [],
+    "startDate": 1429783106998,
+    "endDate": null,
+    "deliveryDate": null,
+    "subscription": {
+      "id": null,
+      "duration": null,
+      "trialDuration": null,
+      "billingInterval": null,
+      "recurring": null
+    },
+    "items": [{
+      "id": "4",
+      "descriptions": [{
+        "short": null,
+        "long": "40 Gems",
+        "name": "40 Gems",
+        "locale": "en"
+      }],
+      "images": [],
+      "videos": [],
+      "quantity": null,
+      "monetaryValue": null,
+      "bundledItems": null
+    }],
+    "descriptions": [{
+      "short": null,
+      "long": "Deluxe Upgrade for iges catalog",
+      "name": "Deluxe Upgrade",
+      "locale": "en"
+    }]
+  }]
+}]

@@ -1,0 +1,27 @@
+[{
+  "id": "GTA5-PC-SHARKCARD-6",
+  "prices": [{
+    "id": "GTA5-PC-SHARKCARD-6EUR7e7a5d26-2aae-4e2f-8b54-bcbd1d349888",
+    "currency": "EUR",
+    "price": 90.59,
+    "priceOriginal": 1.0
+  }],
+  "name": "Megalodon Shark Cash Card",
+  "shortDescription": "Megalodon Shark Cash Card",
+  "longDescription": "Megalodon Shark Cash Card",
+  "images": [],
+  "tags": [],
+  "startDate": 1421660863726,
+  "endDate": null,
+  "deliveryDate": null,
+  "subscription": null,
+  "items": [{
+    "id": "GTA5-PC-SHARKCARD-6",
+    "name": "Megalodon Shark Cash Card",
+    "shortDescription": "Megalodon Shark Cash Card",
+    "longDescription": "Megalodon Shark Cash Card",
+    "images": [],
+    "quantity": null
+  }],
+  "paymentForms": ["cpgClickAndBuy", "cpgCreditCard", "cpgIBP", "cpgPayPal", "cpgPaySafeCard", "cpgSEPADirectDebit", "cpgWebMoney", "cpgPayPalPreApproved"]
+}]

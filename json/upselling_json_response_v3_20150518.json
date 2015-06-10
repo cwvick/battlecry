@@ -1,0 +1,195 @@
+[{
+  "name": "DELUXE UPGRADE",
+  "id": "GW2_Standard_Deluxe_Upselling_Offer",
+  "shortDescription": "DELUXE UPGRADE",
+  "upsellingOffers": [{
+    "id": "GW2_Standard_Deluxe_Upgrade_Offer",
+    "prices": [{
+      "id": "GW2_Standard_Deluxe_Upgrade_OfferEURe5ec789e-0940-4fcd-816c-78477e1e014f",
+      "price": {
+        "symbol": "EUR",
+        "isoCode": "EUR",
+        "type": "real",
+        "amount": 7499,
+        "decimalAmount": 74.99
+      },
+      "priceOriginal": {
+        "symbol": "EUR",
+        "isoCode": "EUR",
+        "type": "real",
+        "amount": 7499,
+        "decimalAmount": 74.99
+      },
+      "paymentForms": []
+    }, {
+      "id": "GW2_Standard_Deluxe_Upgrade_OfferGBPc3f1cdca-d22c-466a-af5d-b2b693091002",
+      "price": {
+        "symbol": "GBP",
+        "isoCode": "GBP",
+        "type": "real",
+        "amount": 5999,
+        "decimalAmount": 59.99
+      },
+      "priceOriginal": {
+        "symbol": "GBP",
+        "isoCode": "GBP",
+        "type": "real",
+        "amount": 5999,
+        "decimalAmount": 59.99
+      },
+      "paymentForms": []
+    }, {
+      "id": "GW2_Standard_Deluxe_Upgrade_OfferUSDf08c31b4-4242-4e2c-ba7f-100aa1350856",
+      "price": {
+        "symbol": "USD",
+        "isoCode": "USD",
+        "type": "real",
+        "amount": 7499,
+        "decimalAmount": 74.99
+      },
+      "priceOriginal": {
+        "symbol": "USD",
+        "isoCode": "USD",
+        "type": "real",
+        "amount": 7499,
+        "decimalAmount": 74.99
+      },
+      "paymentForms": []
+    }],
+    "images": [],
+    "videos": [],
+    "tags": ["Deluxe"],
+    "startDate": 1431354697000,
+    "endDate": null,
+    "deliveryDate": null,
+    "subscription": {
+      "id": null,
+      "duration": null,
+      "trialDuration": null,
+      "billingInterval": null,
+      "recurring": null
+    },
+    "items": [{
+      "id": "GW2_Standard_Deluxe_Upgrade_Item",
+      "descriptions": [{
+        "short": "Guild Wars 2: Heart of Thorns (Deluxe)",
+        "long": "Guild Wars 2: Heart of Thorns (Deluxe)",
+        "name": "Guild Wars 2: Heart of Thorns (Deluxe Upgrade)",
+        "locale": "en"
+      }, {
+        "short": "Guild Wars 2: Heart of Thorns (Deluxe Edition)",
+        "long": "Guild Wars 2: Heart of Thorns (DELUXE EDITION)",
+        "name": "Guild Wars 2: Heart of Thorns (Deluxe Edition)",
+        "locale": "de"
+      }, {
+        "short": "Guild Wars 2: Heart of Thorns (Edición Deluxe)",
+        "long": "Guild Wars 2: Heart of Thorns (Edición Deluxe)",
+        "name": "Guild Wars 2: Heart of Thorns (Edición Deluxe)",
+        "locale": "es"
+      }, {
+        "short": "Guild Wars 2: Heart of Thorns (Édition Deluxe)",
+        "long": "Guild Wars 2: Heart of Thorns (Édition Deluxe)",
+        "name": "Guild Wars 2: Heart of Thorns (Édition Deluxe)",
+        "locale": "fr"
+      }],
+      "images": [],
+      "videos": [],
+      "quantity": null,
+      "monetaryValue": null,
+      "bundledItems": null
+    }],
+    "descriptions": [{
+      "short": "DELUXE UPGRADE2222",
+      "long": "Upgrade to Deluxe66666 to receive:An additional character slot, a Miniature Revenant Rytlock, a Revenant Finisher, a Mordremoth's Bane Guild Hall Decoration, and a Heart of Thorns Glider Skin.",
+      "name": "DELUXE UPGRADE",
+      "locale": "en"
+    }]
+  }, {
+    "id": "GW2_Standard_Ultimate_Upgrade_Offer",
+    "prices": [{
+      "id": "GW2_Standard_Ultimate_Upgrade_OfferEURcaa3dce1-1f2f-4c01-b47b-b670342fdb20",
+      "price": {
+        "symbol": "EUR",
+        "isoCode": "EUR",
+        "type": "real",
+        "amount": 9999,
+        "decimalAmount": 99.99
+      },
+      "priceOriginal": {
+        "symbol": "EUR",
+        "isoCode": "EUR",
+        "type": "real",
+        "amount": 9999,
+        "decimalAmount": 99.99
+      },
+      "paymentForms": []
+    }, {
+      "id": "GW2_Standard_Ultimate_Upgrade_OfferGBP78911753-1137-4193-881c-894f28bb62a1",
+      "price": {
+        "symbol": "GBP",
+        "isoCode": "GBP",
+        "type": "real",
+        "amount": 7999,
+        "decimalAmount": 79.99
+      },
+      "priceOriginal": {
+        "symbol": "GBP",
+        "isoCode": "GBP",
+        "type": "real",
+        "amount": 7999,
+        "decimalAmount": 79.99
+      },
+      "paymentForms": []
+    }, {
+      "id": "GW2_Standard_Ultimate_Upgrade_OfferUSD7834016b-0992-497f-b4c6-e0cd67b339eb",
+      "price": {
+        "symbol": "USD",
+        "isoCode": "USD",
+        "type": "real",
+        "amount": 9999,
+        "decimalAmount": 99.99
+      },
+      "priceOriginal": {
+        "symbol": "USD",
+        "isoCode": "USD",
+        "type": "real",
+        "amount": 9999,
+        "decimalAmount": 99.99
+      },
+      "paymentForms": []
+    }],
+    "images": [],
+    "videos": [],
+    "tags": ["Ultimate"],
+    "startDate": 1430838448297,
+    "endDate": null,
+    "deliveryDate": null,
+    "subscription": {
+      "id": null,
+      "duration": null,
+      "trialDuration": null,
+      "billingInterval": null,
+      "recurring": null
+    },
+    "items": [{
+      "id": "GW2_Standard_Ultimate_Upgrade_Item",
+      "descriptions": [{
+        "short": "Guild Wars 2: Heart of Thorns (Ultimate)",
+        "long": "Guild Wars 2: Heart of Thorns (Ultimate)",
+        "name": "Guild Wars 2: Heart of Thorns (Ultimate)",
+        "locale": "en"
+      }],
+      "images": [],
+      "videos": [],
+      "quantity": null,
+      "monetaryValue": null,
+      "bundledItems": null
+    }],
+    "descriptions": [{
+      "short": "ULTIMATE UPGRADE",
+      "long": "Don’t miss out on our best value!\r\n\r\nUpgrade to Ultimate and get everything in Deluxe, plus 3200 gems to treat yourself to outfits, special items, and other great upgrades in the Gem Store.",
+      "name": "ULTIMATE UPGRADE",
+      "locale": "en"
+    }]
+  }]
+}]

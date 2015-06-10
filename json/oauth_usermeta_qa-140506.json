@@ -1,0 +1,182 @@
+{
+  "address": [
+    {
+      "type": null,
+      "accountId": null,
+      "firstName": null,
+      "lastName": null,
+      "email": "customerclient4.com@fatfoogoo.com",
+      "company": null,
+      "active": true,
+      "street1": null,
+      "street2": null,
+      "zipCode": null,
+      "city": null,
+      "countryCode": null,
+      "stateCode": null,
+      "stateCodeSimple": null,
+      "addressStatus": null,
+      "validFrom": null,
+      "addressDetailId": null,
+      "phone": null,
+      "defaultShipping": false,
+      "defaultBilling": false,
+      "countryIsoCode": null,
+      "stateText": null
+    }
+  ],
+  "userLocalizationData": {
+    "currencyIdentifier": "EUR",
+    "countryIdentifier": "AUT",
+    "countryOrigin": "external",
+    "alpha2CountryIdentifier": "AT",
+    "language": "en",
+    "externalAccountId": "{32cd66d0-0bf9-499e-a216-298d178d51bd}",
+    "externalIdentityId": null,
+    "referenceId": "{32cd66d0-0bf9-499e-a216-298d178d51bd}"
+  },
+  "identities": [],
+  "paymentTypes": [
+    {
+      "referencedBillingInfoExternalId": null,
+      "scope": null,
+      "firstName": null,
+      "lastName": null,
+      "email": null,
+      "lastChange": null,
+      "paymentType": "cpgIBP",
+      "defaultPayment": false,
+      "referencedTxId": null,
+      "externalAccountId": null,
+      "externalIdentityId": null,
+      "referenceId": null
+    },
+    {
+      "referencedBillingInfoExternalId": null,
+      "scope": null,
+      "firstName": null,
+      "lastName": null,
+      "email": null,
+      "lastChange": null,
+      "paymentType": "cpgSEPADirectDebit",
+      "defaultPayment": false,
+      "referencedTxId": null,
+      "externalAccountId": null,
+      "externalIdentityId": null,
+      "referenceId": null
+    },
+    {
+      "referencedBillingInfoExternalId": null,
+      "scope": null,
+      "firstName": null,
+      "lastName": null,
+      "email": null,
+      "lastChange": null,
+      "paymentType": "cpgPaySafeCard",
+      "defaultPayment": false,
+      "referencedTxId": null,
+      "externalAccountId": null,
+      "externalIdentityId": null,
+      "referenceId": null
+    },
+    {
+      "referencedBillingInfoExternalId": null,
+      "scope": null,
+      "firstName": null,
+      "lastName": null,
+      "email": null,
+      "lastChange": null,
+      "paymentType": "cpgELV",
+      "defaultPayment": false,
+      "referencedTxId": null,
+      "externalAccountId": null,
+      "externalIdentityId": null,
+      "referenceId": null
+    },
+    {
+      "referencedBillingInfoExternalId": null,
+      "scope": null,
+      "firstName": null,
+      "lastName": null,
+      "email": null,
+      "lastChange": null,
+      "paymentType": "cpgPayPal",
+      "defaultPayment": false,
+      "referencedTxId": null,
+      "externalAccountId": null,
+      "externalIdentityId": null,
+      "referenceId": null
+    },
+    {
+      "referencedBillingInfoExternalId": null,
+      "scope": null,
+      "firstName": null,
+      "lastName": null,
+      "email": null,
+      "lastChange": null,
+      "paymentType": "cpgCreditCard",
+      "defaultPayment": false,
+      "referencedTxId": null,
+      "externalAccountId": null,
+      "externalIdentityId": null,
+      "referenceId": null
+    }
+  ],
+  "storeMaintenance": false,
+  "banks": [
+    {
+      "bankName": "Bank Austria",
+      "bankId": "10"
+    },
+    {
+      "bankName": "Erste Bank und Sparkassen",
+      "bankId": "11"
+    },
+    {
+      "bankName": "Bankhaus Carl Spängler & Co. AG",
+      "bankId": "12"
+    },
+    {
+      "bankName": "Volksbank Gruppe",
+      "bankId": "13"
+    },
+    {
+      "bankName": "Hypo Tirol Bank AG",
+      "bankId": "14"
+    },
+    {
+      "bankName": "HYPO Oberösterreich,Salzburg,Steiermark",
+      "bankId": "15"
+    },
+    {
+      "bankName": "BAWAG P.S.K. AG",
+      "bankId": "16"
+    },
+    {
+      "bankName": "Ärztebank",
+      "bankId": "23"
+    },
+    {
+      "bankName": "HYPO NOE Landesbank AG",
+      "bankId": "24"
+    },
+    {
+      "bankName": "Hypo Landesbank Vorarlberg",
+      "bankId": "25"
+    },
+    {
+      "bankName": "Hypo Alpe-Adria-Bank AG",
+      "bankId": "26"
+    },
+    {
+      "bankName": "Investkredit Bank AG",
+      "bankId": "27"
+    },
+    {
+      "bankName": "Raiffeisen Bankengruppe Österreich",
+      "bankId": "8"
+    }
+  ],
+  "recurringBuyer": false,
+  "termsConditionsResponse": null
+}

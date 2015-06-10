@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <style>
+      html {
+        font-family: sans-serif;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+      }
+      html * {
+        box-sizing: border-box;
+      }
+      .ajax_overlay {
+        background-color: #000;
+        opacity: 0.85;
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 99999;
+        display: table;
+      }
+      .ajax_loader {
+        background: url(data:image/gif;base64,R0lGODlhKwALAPEAAP///2Cv/rDX/mCv/iH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAKwALAAACMoSOCMuW2diD88UKG95W88uF4DaGWFmhZid93pq+pwxnLUnXh8ou+sSz+T64oCAyTBUAACH5BAkKAAAALAAAAAArAAsAAAI9xI4IyyAPYWOxmoTHrHzzmGHe94xkmJifyqFKQ0pwLLgHa82xrekkDrIBZRQab1jyfY7KTtPimixiUsevAAAh+QQJCgAAACwAAAAAKwALAAACPYSOCMswD2FjqZpqW9xv4g8KE7d54XmMpNSgqLoOpgvC60xjNonnyc7p+VKamKw1zDCMR8rp8pksYlKorgAAIfkECQoAAAAsAAAAACsACwAAAkCEjgjLltnYmJS6Bxt+sfq5ZUyoNJ9HHlEqdCfFrqn7DrE2m7Wdj/2y45FkQ13t5itKdshFExC8YCLOEBX6AhQAADsAAAAAAAAAAAA=) no-repeat center center transparent;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        display: table-cell;
+        padding-top: 4em;
+        color: #efefef;
+        font-size: 20px;
+      }
+      .ajax_overlay div {
+        width: 100%;
+        text-align: center;
+        vertical-align: middle;
+        display: table-cell;
+        padding-top: 4em;
+        color: #efefef;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <script type="text/javascript" src="js/jquery-1.7.2.min.js" ></script>
+  <script type="text/javascript">
+    $(function(){
+      var formString = window.opener.paymentTransactionParameters.externalUrl.formString;
+      if (formString) {
+        var form = decodeURIComponent(formString);
+        $(form).submit();
+      }   
+    });
+  </script>
+  <body>
+    <div class="ajax_overlay" id="ajax_overlay">
+      <div class="ajax_loader">${drog_transaction_progress_header}</div>
+    </div>
+  </body>
+</html>
